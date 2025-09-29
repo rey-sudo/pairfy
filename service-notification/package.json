@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "@apollo/server": "^4.11.2",
-    "@lucid-evolution/lucid": "^0.4.14",
     "@lovelacers/common": "^1.0.274",
+    "@lucid-evolution/lucid": "^0.4.14",
     "cookie-session": "^2.1.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.1",

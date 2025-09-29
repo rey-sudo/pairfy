@@ -1,6 +1,6 @@
 {
   "name": "@lovelacers/common",
-  "version": "1.0.275",
+  "version": "1.0.274",
   "description": "Common shared package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

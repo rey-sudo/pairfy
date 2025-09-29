@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-feed 
-          image: pairfy/service-feed 
+          image: lovelacers/service-feed 
           env:
             - name: POD_NAME
               valueFrom:

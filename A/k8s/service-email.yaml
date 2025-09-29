@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-email
-          image: pairfy/service-email
+          image: lovelacers/service-email
           env:
             - name: NODE_ENV
               value: "development"  

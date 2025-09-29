@@ -15,7 +15,7 @@ spec:
       terminationGracePeriodSeconds: 15
       containers:
         - name: service-query-consumer
-          image: pairfy/base-consumer
+          image: lovelacers/base-consumer
           ports:
             - containerPort: 3000
           env:

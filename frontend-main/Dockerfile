@@ -7,7 +7,10 @@ ENV NUXT_PUBLIC_MEDIA_CDN=${NUXT_PUBLIC_MEDIA_CDN:-/api/media}
 
 
 COPY package.json package-lock.json ./
-RUN npm ci --prefer-offline --no-audit
+
+RUN npm cache clean --force \
+    && rm -rf ~/.npm \
+    && npm ci --no-audit
 
 
 COPY . .

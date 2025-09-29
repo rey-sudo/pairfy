@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-query
-          image: pairfy/service-query
+          image: lovelacers/service-query
           env:
             - name: NODE_ENV
               value: "development"                                                                          

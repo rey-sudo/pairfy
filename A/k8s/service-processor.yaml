@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-processor
-          image: pairfy/service-processor
+          image: lovelacers/service-processor
           env:
             - name: NODE_ENV
               value: "development"

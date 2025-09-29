@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend-main
-          image: pairfy/frontend-main
+          image: lovelacers/frontend-main
           ports:
             - containerPort: 3000
           env:
@@ -39,7 +39,7 @@ spec:
             - name: NUXT_PUBLIC_MEDIA_CDN
               value: /api/media
             - name: NUXT_PUBLIC_PAIRFY_BASE
-              value: "pairfy.dev"
+              value: "lovelacers.dev"
 ---
 apiVersion: v1
 kind: Service

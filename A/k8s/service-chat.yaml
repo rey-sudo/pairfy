@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-chat
-          image: pairfy/service-chat
+          image: lovelacers/service-chat
           env:
             - name: NODE_ENV
               value: "development"                       

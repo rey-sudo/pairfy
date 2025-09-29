@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-user
-          image: pairfy/service-user
+          image: lovelacers/service-user
           env:
             - name: NODE_ENV
               value: development      

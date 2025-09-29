@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: locust-master
-        image: pairfy/testing
+        image: lovelacers/testing
         env:
           - name: LOCUST_MODE_MASTER
             value: "yes"
@@ -74,7 +74,7 @@ spec:
     spec:
       containers:
       - name: locust-worker
-        image: pairfy/testing
+        image: lovelacers/testing
         env:
           - name: LOCUST_MODE_WORKER
             value: "yes"

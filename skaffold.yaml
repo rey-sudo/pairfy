@@ -9,7 +9,7 @@ build:
   tagPolicy:
     sha256: {}
   artifacts:       
-    - image: pairfy/frontend-main
+    - image: lovelacers/frontend-main
       context: frontend-main
       docker:
         dockerfile: Dockerfile
@@ -24,7 +24,7 @@ build:
           - src: 'nuxt.config.*'
             dest: .
 
-    - image: pairfy/frontend-seller
+    - image: lovelacers/frontend-seller
       context: frontend-seller
       docker:
         dockerfile: Dockerfile
@@ -39,22 +39,7 @@ build:
           - src: 'nuxt.config.*'
             dest: .
 
-    - image: pairfy/frontend-midnight
-      context: frontend-midnight
-      docker:
-        dockerfile: Dockerfile
-      sync:
-        manual:
-          - src: 'pages/**/*'
-            dest: pages
-          - src: 'components/**/*'
-            dest: components
-          - src: 'app.vue'
-            dest: .
-          - src: 'nuxt.config.*'
-            dest: .
-
-    - image: pairfy/service-seller
+    - image: lovelacers/service-seller
       context: service-seller
       docker:
         dockerfile: Dockerfile
@@ -63,7 +48,7 @@ build:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .
 
-    - image: pairfy/base-publisher
+    - image: lovelacers/base-publisher
       context: base-publisher
       docker:
         dockerfile: Dockerfile
@@ -72,7 +57,7 @@ build:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .
 
-    - image: pairfy/base-consumer
+    - image: lovelacers/base-consumer
       context: base-consumer
       docker:
         dockerfile: Dockerfile
@@ -81,7 +66,7 @@ build:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .         
 
-    - image: pairfy/service-email
+    - image: lovelacers/service-email
       context: service-email
       docker:
         dockerfile: Dockerfile
@@ -90,7 +75,7 @@ build:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .   
 
-    - image: pairfy/service-product
+    - image: lovelacers/service-product
       context: service-product
       docker:
         dockerfile: Dockerfile
@@ -99,7 +84,7 @@ build:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .                
 
-#    - image: pairfy/service-llm
+#    - image: lovelacers/service-llm
 #      context: service-llm
 #      docker:
 #        dockerfile: Dockerfile
@@ -110,7 +95,7 @@ build:
 #          - src: 'requirements.txt'
 #            dest: .
 
-    - image: pairfy/service-query
+    - image: lovelacers/service-query
       context: service-query
       docker:
         dockerfile: Dockerfile
@@ -119,7 +104,7 @@ build:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .  
 
-    - image: pairfy/service-media
+    - image: lovelacers/service-media
       context: service-media
       docker:
         dockerfile: Dockerfile
@@ -127,7 +112,7 @@ build:
         manual:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .     
-    - image: pairfy/service-processor
+    - image: lovelacers/service-processor
       context: service-processor
       docker:
         dockerfile: Dockerfile
@@ -138,7 +123,7 @@ build:
           - src: 'package.json'
             dest: .         
 
-    - image: pairfy/service-user
+    - image: lovelacers/service-user
       context: service-user
       docker:
         dockerfile: Dockerfile
@@ -146,7 +131,7 @@ build:
         manual:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .
-    - image: pairfy/service-gateway
+    - image: lovelacers/service-gateway
       context: service-gateway
       docker:
         dockerfile: Dockerfile
@@ -154,7 +139,7 @@ build:
         manual:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .
-    - image: pairfy/service-price
+    - image: lovelacers/service-price
       context: service-price
       docker:
         dockerfile: Dockerfile
@@ -162,7 +147,7 @@ build:
         manual:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .
-    - image: pairfy/service-state
+    - image: lovelacers/service-state
       context: service-state
       docker:
         dockerfile: Dockerfile
@@ -170,7 +155,7 @@ build:
         manual:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .            
-    - image: pairfy/service-notification
+    - image: lovelacers/service-notification
       context: service-notification
       docker:
         dockerfile: Dockerfile
@@ -178,7 +163,7 @@ build:
         manual:
           - src: 'src/**/*.{ts,js,json,vue}'
             dest: .  
-    - image: pairfy/service-chat
+    - image: lovelacers/service-chat
       context: service-chat
       docker:
         dockerfile: Dockerfile

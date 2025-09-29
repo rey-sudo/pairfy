@@ -15,8 +15,8 @@
   "dependencies": {
     "@apollo/server": "^4.11.2",
     "@elastic/elasticsearch": "^8.17.0",
-    "@lucid-evolution/lucid": "^0.4.29",
     "@lovelacers/common": "^1.0.274",
+    "@lucid-evolution/lucid": "^0.4.29",
     "argon2": "^0.41.1",
     "cookie-session": "^2.1.0",
     "dotenv": "^16.4.7",

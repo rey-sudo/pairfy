@@ -10,7 +10,7 @@ metadata:
     nginx.ingress.kubernetes.io/proxy-send-timeout: "3600"
     nginx.ingress.kubernetes.io/cors-allow-credentials: "true"
     nginx.ingress.kubernetes.io/enable-cors: "true"
-    nginx.ingress.kubernetes.io/cors-allow-origin: pairfy.dev
+    nginx.ingress.kubernetes.io/cors-allow-origin: lovelacers.dev
     nginx.ingress.kubernetes.io/cors-expose-headers: "Set-Cookie"
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
     nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
@@ -22,7 +22,7 @@ metadata:
 
 spec:
   rules:
-    - host: pairfy.dev
+    - host: lovelacers.dev
       http:
         paths:
           - path: /
@@ -33,7 +33,7 @@ spec:
                 port:
                   number: 80
            
-    - host: seller.pairfy.dev
+    - host: seller.lovelacers.dev
       http:
         paths:
           - path: /

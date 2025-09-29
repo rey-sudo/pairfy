@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-gemini
-          image: pairfy/service-gemini
+          image: lovelacers/service-gemini
           env:
             - name: POD_NAME
               valueFrom:
@@ -37,7 +37,7 @@ spec:
                   name: gemini-api-key
                   key: key                                                                                                                                                                                          
             - name: CORS_DOMAINS
-              value: "http://localhost:5173,http://localhost:8080,http://localhost:8081,http://localhost:443,localhost,https://pairfy.dev,https://dashboard.pairfy.dev"                          
+              value: "http://localhost:5173,http://localhost:8080,http://localhost:8081,http://localhost:443,localhost,https://lovelacers.dev,https://dashboard.lovelacers.dev"                          
           resources:
             limits:
               memory: "500Mi"

@@ -13,8 +13,8 @@
     "node": ">=20.10.0"
   },
   "dependencies": {
-    "@lucid-evolution/lucid": "^0.4.29",
     "@lovelacers/common": "^1.0.274",
+    "@lucid-evolution/lucid": "^0.4.29",
     "@types/axios": "^0.9.36",
     "axios": "^1.7.8",
     "axios-retry": "^4.5.0",

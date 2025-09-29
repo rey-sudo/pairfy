@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-seller-publisher
-          image: pairfy/base-publisher
+          image: lovelacers/base-publisher
           env:
             - name: DATABASE_NAME
               value: service_seller                 

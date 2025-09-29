@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-location
-          image: pairfy/service-location
+          image: lovelacers/service-location
           env:
             - name: POD_NAME
               valueFrom:
@@ -29,7 +29,7 @@ spec:
             - name: EXPRESS_TIMEOUT
               value: "30000"                                                                                                                                                 
             - name: CORS_DOMAINS
-              value: "http://localhost:5173,http://localhost:5174,https://pairfy.dev,http://pairfy.dev,http://localhost:8080,http://localhost:8081,https://pairfy.dev,https://dashboard.pairfy.dev"                           
+              value: "http://localhost:5173,http://localhost:5174,https://lovelacers.dev,http://lovelacers.dev,http://localhost:8080,http://localhost:8081,https://lovelacers.dev,https://dashboard.lovelacers.dev"                           
             - name: DEV_IP
               value: "50.73.157.178" 
             - name: GEO_TOKEN

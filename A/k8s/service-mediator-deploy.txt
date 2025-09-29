@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-mediator
-          image: pairfy/service-mediator
+          image: lovelacers/service-mediator
           env:
             - name: POD_NAME
               valueFrom:
@@ -39,7 +39,7 @@ spec:
             - name: TOKEN_EXPIRATION
               value: "7d"
             - name: CORS_DOMAINS
-              value: "http://localhost:3000,http://localhost:8080,http://localhost:8081,http://localhost:443,localhost,https://pairfy.dev,https://dashboard.pairfy.dev"                           
+              value: "http://localhost:3000,http://localhost:8080,http://localhost:8081,http://localhost:443,localhost,https://lovelacers.dev,https://dashboard.lovelacers.dev"                           
           resources:
             limits:
               memory: "500Mi"

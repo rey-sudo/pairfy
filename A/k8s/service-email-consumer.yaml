@@ -15,7 +15,7 @@ spec:
       terminationGracePeriodSeconds: 15
       containers:
         - name: service-email-consumer
-          image: pairfy/base-consumer
+          image: lovelacers/base-consumer
           ports:
             - containerPort: 3000
           env:
@@ -36,7 +36,7 @@ spec:
             - name: DATABASE_USER
               value: marketplace
             - name: HANDLER_SELLER_URL
-              value: https://seller.pairfy.dev
+              value: https://seller.lovelacers.dev
 
             - name: POD_NAME
               valueFrom:

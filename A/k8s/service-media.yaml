@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-media
-          image: pairfy/service-media
+          image: lovelacers/service-media
           env:                                  
             - name: NODE_ENV
               value: "development"
