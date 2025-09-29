@@ -1,6 +1,6 @@
 {
-  "name": "@pairfy/common-f",
-  "version": "0.1.23",
+  "name": "@lovelacers/common-f",
+  "version": "0.1.24",
   "main": "dist/index.js",
   "license": "Apache-2.0",
   "module": "dist/index.mjs",
