@@ -6,3 +6,5 @@ keys
 common/dist
 skaffold
 zsecrets
+secrets
+secrets.*

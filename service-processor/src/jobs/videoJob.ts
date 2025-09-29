@@ -76,7 +76,7 @@ export async function handleVideoJob(job: Job) {
     // createEvent(urls)
 
     return { status: 'done', uploaded: urls };
-  } catch (err) {
+  } catch (err: any) {
     logger.error(`Error processing video job ${job.id}:`, err);
     throw err;
   }
