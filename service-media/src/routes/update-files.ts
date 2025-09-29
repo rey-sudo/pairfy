@@ -6,7 +6,7 @@ import {
   ApiError,
   ERROR_CODES,
   SellerToken,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { Request, Response, RequestHandler, NextFunction } from "express";
 import { minioClient } from "../database/minio.js";
 import { insertFile, mediaGroupExists } from "../utils/media.js";

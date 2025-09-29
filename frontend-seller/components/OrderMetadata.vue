@@ -41,7 +41,7 @@
 
 <script setup>
 import DOMPurify from 'dompurify';
-import { decryptMessageWithPrivateKey, decryptAESGCM } from '@pairfy/common-f';
+import { decryptMessageWithPrivateKey, decryptAESGCM } from '@lovelacers/common-f';
 import { z } from 'zod';
 
 const orderStore = useOrderStore()

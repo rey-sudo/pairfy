@@ -13,7 +13,7 @@
   "dependencies": {
     "@nats-io/jetstream": "^3.0.0-28",
     "@nats-io/transport-node": "^3.0.0-26",
-    "@pairfy/common": "^1.0.274",
+    "@lovelacers/common": "^1.0.274",
     "mysql2": "^3.11.4",
     "nanoid": "^5.0.8",
     "tslog": "^4.9.3"

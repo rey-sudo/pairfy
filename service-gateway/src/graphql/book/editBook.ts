@@ -1,5 +1,5 @@
 import database from "../../database/client.js";
-import { ApiGraphQLError, ERROR_CODES, findBookBySeller } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES, findBookBySeller } from "@lovelacers/common";
 import { verifyParams } from "../../validators/editBook.js";
 import { updateBook } from "../../common/updateBook.js";
 import { redisBooks } from "../../database/redis.js";

@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import { Request, Response, NextFunction } from "express";
-import { logger, SellerToken, UserToken } from "@pairfy/common";
+import { logger, SellerToken, UserToken } from "@lovelacers/common";
 
 
 

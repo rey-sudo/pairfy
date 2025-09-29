@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { ApiError, ERROR_CODES } from "@pairfy/common";
+import { ApiError, ERROR_CODES } from "@lovelacers/common";
 import { verifyParams } from "../validators/get-file.js";
 import { minioClient } from "../database/minio.js";
 

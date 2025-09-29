@@ -1,4 +1,4 @@
-import { passwordSchema, hexRegex } from "@pairfy/common";
+import { passwordSchema, hexRegex } from "@lovelacers/common";
 import { z } from "zod";
 
 const allowedCountries = ["US"] as const;

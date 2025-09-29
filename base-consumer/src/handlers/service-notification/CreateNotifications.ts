@@ -1,5 +1,5 @@
 import database from "../../database/client.js";
-import { consumeEvent, isProcessedEvent, logger } from "@pairfy/common";
+import { consumeEvent, isProcessedEvent, logger } from "@lovelacers/common";
 
 export const CreateNotifications = async (
   event: any,

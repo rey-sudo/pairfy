@@ -1,6 +1,6 @@
 import { shippingTransactionBuilder } from "../../cardano/builders/shipping.js";
 import { shippingEndpoinSchema } from "../../validators/cardano/shipping.js";
-import { ApiGraphQLError, ERROR_CODES, SellerToken } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES, SellerToken } from "@lovelacers/common";
 import { findOrderBySeller } from "../../common/findOrderBySeller.js";
 import { chunkMetadata } from "../../lib/metadata.js";
 import database from "../../database/client.js";

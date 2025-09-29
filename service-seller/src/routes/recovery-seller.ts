@@ -6,7 +6,7 @@ import {
   createEvent,
   createToken,
   findSellerByEmail,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { recoverySellerSchema } from "../validators/recovery-seller.js";
 
 export const recoverySellerMiddlewares: any = [];

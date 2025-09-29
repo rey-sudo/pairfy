@@ -1,6 +1,6 @@
 import { redisClient } from "../database/redis.js";
 import { axiosAPI } from "../api/index.js";
-import { logger } from "@pairfy/common";
+import { logger } from "@lovelacers/common";
 import { Job } from "bullmq";
 
 type BinanceResponse = { mins: number; price: string; closeTime: number };

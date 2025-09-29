@@ -1,5 +1,5 @@
 import database from "../../database/client.js";
-import { ApiGraphQLError, ERROR_CODES, SellerToken } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES, SellerToken } from "@lovelacers/common";
 import { getOrdersSchema } from "../../validators/order/getOrders.js";
 
 export const getOrders = async (_: any, args: any, context: any) => {

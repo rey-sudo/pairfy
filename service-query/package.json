@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@apollo/server": "^4.11.2",
-    "@pairfy/common": "^1.0.274",
+    "@lovelacers/common": "^1.0.274",
     "axios": "^1.9.0",
     "express": "^4.21.1",
     "graphql": "^16.9.0",

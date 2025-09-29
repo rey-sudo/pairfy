@@ -14,7 +14,7 @@
   "dependencies": {
     "@apollo/server": "^4.11.2",
     "@graphql-tools/schema": "^10.0.13",
-    "@pairfy/common": "^1.0.274",
+    "@lovelacers/common": "^1.0.274",
     "argon2": "^0.41.1",
     "cookie-session": "^2.1.0",
     "express": "^4.21.1",

@@ -12,7 +12,7 @@ import {
   findSellerById,
   encryptAESGCM,
   generateRSA,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { createSellerSchema } from "../validators/create-seller.js";
 
 export const createSellerMiddlewares: any = [];

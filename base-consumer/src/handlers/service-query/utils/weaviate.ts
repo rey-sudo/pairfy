@@ -1,7 +1,7 @@
 import weaviate from "weaviate-ts-client";
 import axiosRetry from "axios-retry";
 import axios from "axios";
-import { logger } from "@pairfy/common";
+import { logger } from "@lovelacers/common";
 
 axiosRetry(axios, {
   retries: 3,

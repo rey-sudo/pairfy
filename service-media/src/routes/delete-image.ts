@@ -1,6 +1,6 @@
 import database from "../database/index.js";
 import { Request, Response } from "express";
-import { sellerMiddleware, sellerRequired, SellerToken } from "@pairfy/common";
+import { sellerMiddleware, sellerRequired, SellerToken } from "@lovelacers/common";
 
 const deleteImageMiddlewares: any = [sellerMiddleware, sellerRequired];
 

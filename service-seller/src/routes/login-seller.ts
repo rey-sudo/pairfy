@@ -13,7 +13,7 @@ import {
   isValidSignatureCIP30,
   createEvent,
   findSellerById,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { getPubKeyHash } from "../utils/blockchain.js";
 import { loginSellerSchema } from "../validators/login-seller.js";
 

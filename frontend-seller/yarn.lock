@@ -607,9 +607,9 @@
   resolved "https://registry.npmjs.org/@oxc-project/types/-/types-0.60.0.tgz"
   integrity sha512-prhfNnb3ATFHOCv7mzKFfwLij5RzoUz6Y1n525ZhCEqfq5wreCXL+DyVoq3ShukPo7q45ZjYIdjFUgjj+WKzng==
 
-"@pairfy/common-f@^0.1.23":
+"@lovelacers/common-f@^0.1.23":
   version "0.1.23"
-  resolved "https://registry.npmjs.org/@pairfy/common-f/-/common-f-0.1.23.tgz"
+  resolved "https://registry.npmjs.org/@lovelacers/common-f/-/common-f-0.1.23.tgz"
   integrity sha512-2wO5UeAsAqORTTcUvTFVRq+Ytg6bmFizX3xzGjdrlV+vHuKY2wEaPDgGa9f02ts1dJgcISoNsEVBSZZwYYIYWA==
   dependencies:
     buffer "^6.0.3"

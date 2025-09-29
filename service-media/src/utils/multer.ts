@@ -6,7 +6,7 @@ import type { Request, Response, NextFunction } from "express";
 import filenamify from "filenamify";
 import ffmpeg from "fluent-ffmpeg";
 import { PassThrough } from "stream";
-import { ApiError, ERROR_CODES } from "@pairfy/common";
+import { ApiError, ERROR_CODES } from "@lovelacers/common";
 
 const allowedMimes = [
   "image/jpeg",

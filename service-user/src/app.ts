@@ -2,7 +2,7 @@ import "express-async-errors";
 import express from "express";
 import helmet from "helmet";
 import cookieSession from "cookie-session";
-import { getPublicAddress } from "@pairfy/common";
+import { getPublicAddress } from "@lovelacers/common";
 
 const app = express();
 

@@ -13,7 +13,7 @@
     "node": ">=20.10.0"
   },
   "dependencies": {
-    "@pairfy/common": "^1.0.274",
+    "@lovelacers/common": "^1.0.274",
     "@types/axios": "^0.9.36",
     "axios": "^1.10.0",
     "bullmq": "^5.56.0",

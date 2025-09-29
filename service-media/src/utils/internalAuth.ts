@@ -1,5 +1,5 @@
 import type { Request, Response, NextFunction } from "express";
-import { ApiError, ERROR_CODES } from "@pairfy/common";
+import { ApiError, ERROR_CODES } from "@lovelacers/common";
 
 const INTERNAL_SECRET = process.env.INTERNAL_ENDPOINT_SECRET;
 

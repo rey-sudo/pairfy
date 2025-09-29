@@ -6,7 +6,7 @@ import {
   insertProduct,
   insertBook,
   findBookBySeller
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { redisBooksClient } from "./utils/redis.js";
 
 export const CreateProduct = async (

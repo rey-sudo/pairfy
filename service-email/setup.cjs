@@ -1,5 +1,5 @@
 const mysql = require('mysql2/promise');
-const { loadSql } = require('@pairfy/common');
+const { loadSql } = require('@lovelacers/common');
 
 const {
   DATABASE_HOST,

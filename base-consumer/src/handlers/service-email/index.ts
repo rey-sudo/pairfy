@@ -1,6 +1,6 @@
 import  database  from "../../database/client.js";
 import { sendEmail } from "./sendEmail.js";
-import { isProcessedEvent, consumeEvent, logger } from '@pairfy/common'
+import { isProcessedEvent, consumeEvent, logger } from '@lovelacers/common'
 
 const CreateEmail = async (event: any, seq: number): Promise<boolean> => {
   let response = null;

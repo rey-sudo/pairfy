@@ -4,7 +4,7 @@ import {
   consumeEvent,
   logger,
   insertProduct,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { createProductIndex } from "./utils/weaviate.js";
 
 export const CreateProduct = async (

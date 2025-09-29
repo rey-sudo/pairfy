@@ -1,5 +1,5 @@
 
-import { isProcessedEvent, consumeEvent, logger } from "@pairfy/common";
+import { isProcessedEvent, consumeEvent, logger } from "@lovelacers/common";
 import { processFile } from "./utils/media.js";
 import database from "../../database/client.js";
 

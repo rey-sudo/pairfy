@@ -1,4 +1,4 @@
-import { logger, ISO31661Alpha2Countries, categories } from "@pairfy/common";
+import { logger, ISO31661Alpha2Countries, categories } from "@lovelacers/common";
 import sanitizeHtml from "sanitize-html";
 
 export const catchError = (error?: any) => {

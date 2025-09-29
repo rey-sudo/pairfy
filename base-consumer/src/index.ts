@@ -7,7 +7,7 @@ import {
 } from "./utils/index.js";
 import { connect } from "@nats-io/transport-node";
 import database from "./database/client.js";
-import { ERROR_EVENTS, logger, sleep } from "@pairfy/common";
+import { ERROR_EVENTS, logger, sleep } from "@lovelacers/common";
 
 const main = async () => {
   try {

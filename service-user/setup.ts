@@ -1,5 +1,5 @@
 import mysql from 'mysql2/promise';
-import { loadSql } from '@pairfy/common';
+import { loadSql } from '@lovelacers/common';
 
 const {
   DATABASE_HOST,

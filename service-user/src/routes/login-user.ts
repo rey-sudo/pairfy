@@ -12,7 +12,7 @@ import {
   encryptAESGCM,
   hashPassword,
   comparePassword,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { getPubKeyHash } from "../utils/crypto.js";
 import { loginUserSchema } from "../validators/login-user.js";
 import { findUserById } from "../common/findUserById.js";

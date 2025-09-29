@@ -12,7 +12,7 @@
   "dependencies": {
     "@apollo/client": "^3.13.8",
     "@emurgo/cardano-serialization-lib-browser": "^14.1.2",
-    "@pairfy/common-f": "^0.1.23",
+    "@lovelacers/common-f": "^0.1.23",
     "@pinia/nuxt": "^0.10.1",
     "@tiptap/extension-character-count": "^2.11.7",
     "@tiptap/extension-hard-break": "^2.11.7",

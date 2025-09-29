@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { emailSchema, passwordSchema, hexRegex } from "@pairfy/common";
+import { emailSchema, passwordSchema, hexRegex } from "@lovelacers/common";
 
 export const loginSellerSchema = z.strictObject({
   email:emailSchema,

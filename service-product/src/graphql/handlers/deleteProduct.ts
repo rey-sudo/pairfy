@@ -6,7 +6,7 @@ import {
   findProductBySeller,
   SellerToken,
   deleteProductById
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { verifyParams } from "../../validators/deleteProduct.js";
 
 export const deleteProduct = async (_: any, args: any, context: any) => {

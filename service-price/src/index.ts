@@ -2,7 +2,7 @@ import { catchError } from "./utils/index.js";
 import { Queue, Worker } from "bullmq";
 import { redisClient } from "./database/redis.js";
 import { getAssetPriceHandler } from "./handlers/assets.js";
-import { ERROR_EVENTS, logger } from "@pairfy/common";
+import { ERROR_EVENTS, logger } from "@lovelacers/common";
 
 const main = async () => {
   try {

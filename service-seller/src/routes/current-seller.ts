@@ -1,6 +1,6 @@
 import database from "../database/index.js";
 import { Request, Response } from "express";
-import { ApiError, ERROR_CODES, sellerMiddleware } from "@pairfy/common";
+import { ApiError, ERROR_CODES, sellerMiddleware } from "@lovelacers/common";
 import { findSellerPrivateKey } from "../common/findSellerPrivateKey.js";
 
 export const currentSellerMiddlewares: any = [sellerMiddleware];

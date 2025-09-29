@@ -36,7 +36,7 @@
 </template>
 
 <script setup>
-import US from '@pairfy/common-f/public/us.svg';
+import US from '@lovelacers/common-f/public/us.svg';
 
 const route = useRoute()
 

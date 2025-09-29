@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import { encryptMessageWithPublicKey } from '@pairfy/common-f'
+import { encryptMessageWithPublicKey } from '@lovelacers/common-f'
 import { gql } from '@apollo/client/core'
 import { Buffer } from 'buffer';
 import { z } from "zod";

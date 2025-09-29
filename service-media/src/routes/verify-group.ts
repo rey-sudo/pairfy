@@ -1,6 +1,6 @@
 import express from "express";
 import database from "../database/index.js";
-import { ApiError, createEvent, ERROR_CODES } from "@pairfy/common";
+import { ApiError, createEvent, ERROR_CODES } from "@lovelacers/common";
 import type { Request, Response, NextFunction } from "express";
 import { verifyParams } from "../validators/verify-group.js";
 import { internalAuth } from "../utils/internalAuth.js";

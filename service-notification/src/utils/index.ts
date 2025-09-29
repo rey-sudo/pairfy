@@ -1,5 +1,5 @@
 import mysql from "mysql2/promise";
-import { logger } from "@pairfy/common";
+import { logger } from "@lovelacers/common";
 import { Connection } from "mysql2/promise";
 
 export const catchError = (error: any) => {

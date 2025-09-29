@@ -18,7 +18,7 @@ import {
   ERROR_CODES,
   SellerToken,
   ERROR_EVENTS,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 
 const main = async () => {
   try {

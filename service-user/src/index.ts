@@ -9,7 +9,7 @@ import {
   errorHandler,
   ERROR_EVENTS,
   RateLimiter,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 
 const main = async () => {
   try {

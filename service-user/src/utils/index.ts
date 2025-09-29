@@ -1,4 +1,4 @@
-import {logger} from "@pairfy/common";
+import {logger} from "@lovelacers/common";
 
 const catchError = (error?: any) => {
   logger.error(`EXIT=>${error}`);

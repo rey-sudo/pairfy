@@ -11,7 +11,7 @@ import {
   findSellerById,
   encryptAESGCM,
   generateRSA
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import {
   verifyParams,
   verifyTokenType,

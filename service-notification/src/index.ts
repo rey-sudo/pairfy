@@ -9,7 +9,7 @@ import { typeDefs } from "./graphql/types.js";
 import { notification } from "./graphql/resolvers.js";
 import { agentMiddleware } from "./common/agentAuth.js";
 import { ApolloServerPluginDrainHttpServer } from "@apollo/server/plugin/drainHttpServer";
-import { ApiGraphQLError, ERROR_CODES, ERROR_EVENTS, getPublicAddress, logger, normalizeGraphError, RateLimiter } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES, ERROR_EVENTS, getPublicAddress, logger, normalizeGraphError, RateLimiter } from "@lovelacers/common";
 
 const main = async () => {
   try {

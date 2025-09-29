@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: 'src/index.ts',
-      name: '@pairfy/common-f',
+      name: '@lovelacers/common-f',
       fileName: (format) => `common-f.${format}.js`,
     },
     rollupOptions: {

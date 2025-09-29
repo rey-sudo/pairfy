@@ -8,7 +8,7 @@ import {
   findProductBySku,
   sanitizeStringArray,
   updateProduct,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { verifyParams } from "../../validators/edit-product.js";
 import { checkFileGroup } from "../../utils/media.js";
 import {

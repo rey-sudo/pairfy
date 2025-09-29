@@ -1,5 +1,5 @@
 import { countNotifications } from "../../common/countNotifications.js";
-import { ApiGraphQLError, ERROR_CODES } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES } from "@lovelacers/common";
 import { getCursorSchema } from "../../validators/getCursor.js";
 import { database } from "../../database/client.js";
 

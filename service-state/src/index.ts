@@ -1,7 +1,7 @@
 import { Queue, Worker } from "bullmq";
 import { testHandler } from "./handlers/index.js";
 import { redisBooks, redisState } from "./database/redis.js";
-import { ERROR_EVENTS, logger, sleep } from "@pairfy/common";
+import { ERROR_EVENTS, logger, sleep } from "@lovelacers/common";
 import { findOrdersCustom } from "./lib/order.js";
 import { database } from "./database/client.js";
 import { catchError } from "./utils/index.js";

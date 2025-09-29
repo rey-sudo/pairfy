@@ -18,7 +18,7 @@ import {
   productSkuSchema,
   tiptapContentSchema,
 } from "./index.js";
-import { productIdSchema } from "@pairfy/common";
+import { productIdSchema } from "@lovelacers/common";
 
 export const verifyParams = z.object({
   id: productIdSchema,

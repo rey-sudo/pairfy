@@ -1,8 +1,8 @@
 import * as route from "./routes/index.js";
 import database from "./database/index.js";
 import compression from "compression";
-import { ApiError, errorHandler, ERROR_EVENTS } from "@pairfy/common";
-import { logger, RateLimiter } from "@pairfy/common";
+import { ApiError, errorHandler, ERROR_EVENTS } from "@lovelacers/common";
+import { logger, RateLimiter } from "@lovelacers/common";
 import { catchError } from "./utils/index.js";
 import { Request, Response } from "express";
 import { app } from "./app.js";

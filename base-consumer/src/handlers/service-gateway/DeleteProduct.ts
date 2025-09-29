@@ -5,7 +5,7 @@ import {
   logger,
   deleteProductById,
   deleteBookById
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { redisBooksClient } from "./utils/redis.js";
 
 export const DeleteProduct = async (

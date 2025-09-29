@@ -1,4 +1,4 @@
-import { ApiGraphQLError, ERROR_CODES } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES } from "@lovelacers/common";
 import { redisBooks } from "../../database/redis.js";
 import { getBookSchema } from "../../validators/getBook.js";
 

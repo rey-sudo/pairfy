@@ -15,7 +15,7 @@ import {
   logger,
   normalizeGraphError,
   RateLimiter,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 
 const main = async () => {
   try {

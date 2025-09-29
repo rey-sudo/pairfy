@@ -1,4 +1,4 @@
-import { getMessageId } from "@pairfy/common";
+import { getMessageId } from "@lovelacers/common";
 
 export async function createChat(redisClient: any, chatKey: string, senderId: string, initialMessage: string) {
   const entry = {

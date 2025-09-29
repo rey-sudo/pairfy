@@ -1,5 +1,5 @@
 import { EditNotificationsSchema } from "../../validators/editNotifications.js";
-import { ApiGraphQLError, ERROR_CODES } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES } from "@lovelacers/common";
 import { updateNotifications } from "../../utils/index.js";
 import { database } from "../../database/client.js";
 

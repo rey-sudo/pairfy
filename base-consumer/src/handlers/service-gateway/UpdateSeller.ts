@@ -4,7 +4,7 @@ import {
   consumeEvent,
   logger,
   updateSeller,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 
 export const UpdateSeller = async (
   event: any,

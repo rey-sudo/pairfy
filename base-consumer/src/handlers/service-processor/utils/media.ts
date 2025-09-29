@@ -1,5 +1,5 @@
 import { connection } from "./redis.js";
-import { logger } from "@pairfy/common";
+import { logger } from "@lovelacers/common";
 import { Queue } from "bullmq";
 
 export const mediaQueue = new Queue("media-processing", {

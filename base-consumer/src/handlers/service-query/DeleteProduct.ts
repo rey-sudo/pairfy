@@ -4,7 +4,7 @@ import {
   consumeEvent,
   logger,
   deleteProductById,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { deleteProductIndex } from "./utils/weaviate.js";
 
 export const DeleteProduct = async (

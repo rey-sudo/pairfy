@@ -5,7 +5,7 @@ import {
   findMediasByProductId,
   sortMediaByPosition,
   findProductById,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { getProductSchema } from "../../validators/getProduct.js";
 
 export const getProduct = async (_: any, args: any, context: any) => {

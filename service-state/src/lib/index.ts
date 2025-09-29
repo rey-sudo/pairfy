@@ -8,7 +8,7 @@ import {
 } from "./types.js";
 import { blockFrostAPI } from "../api/index.js";
 import { Data, fromText, Kupmios, Lucid, Network, UTxO } from "@lucid-evolution/lucid";
-import { logger } from "@pairfy/common";
+import { logger } from "@lovelacers/common";
 
 const provider = new Kupmios(
   process.env.KUPO_KEY as string,

@@ -1,4 +1,4 @@
-import { DatabaseWrap } from '@pairfy/common'
+import { DatabaseWrap } from '@lovelacers/common'
 
 const database = new DatabaseWrap();
 

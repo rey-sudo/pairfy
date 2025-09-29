@@ -6,7 +6,7 @@ import {
   insertMedia,
   createEvent,
   findMediaById
-} from "@pairfy/common";
+} from "@lovelacers/common";
 
 const ProcessedFile = async (event: any, seq: number): Promise<boolean> => {
   let response = null;

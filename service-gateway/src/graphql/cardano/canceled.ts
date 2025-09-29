@@ -1,6 +1,6 @@
 import database from "../../database/client.js";
 import { canceledTransactionBuilder } from "../../cardano/builders/canceled.js";
-import { ApiGraphQLError, ERROR_CODES, UserToken } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES, UserToken } from "@lovelacers/common";
 import { canceledEndpointSchema } from "../../validators/cardano/canceled.js";
 import { findOrderByUser } from "../../common/findOrderByUser.js";
 

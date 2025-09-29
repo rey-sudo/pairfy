@@ -1,4 +1,4 @@
-import { createEvent, getNotificationId } from "@pairfy/common";
+import { createEvent, getNotificationId } from "@lovelacers/common";
 import { jobResponse } from "./index.js";
 import { saveStatus } from "../lib/order.js";
 import { redisState } from "../database/redis.js";

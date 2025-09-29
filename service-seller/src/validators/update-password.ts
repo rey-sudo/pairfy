@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { passwordSchema } from "@pairfy/common";
+import { passwordSchema } from "@lovelacers/common";
 
 export const verifyParams = z.object({
   token: z

@@ -21,7 +21,7 @@ import {
   normalizeGraphError,
   RateLimiter,
   verifyToken,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { agentMiddleware } from "./common/agent.js";
 import { ApolloServerPluginDrainHttpServer } from "@apollo/server/plugin/drainHttpServer";
 

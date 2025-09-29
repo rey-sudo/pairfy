@@ -155,7 +155,7 @@
 
 <script setup>
 import { gql } from 'graphql-tag'
-import { encryptMessageWithPublicKey, compress, chunkMetadata } from '@pairfy/common-f'
+import { encryptMessageWithPublicKey, compress, chunkMetadata } from '@lovelacers/common-f'
 import { formatUSD, timestampToDate } from '@/utils/utils'
 
 const route = useRoute()

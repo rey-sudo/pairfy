@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@lucid-evolution/lucid": "^0.4.29",
-    "@pairfy/common": "^1.0.274",
+    "@lovelacers/common": "^1.0.274",
     "@types/axios": "^0.9.36",
     "axios": "^1.7.8",
     "axios-retry": "^4.5.0",

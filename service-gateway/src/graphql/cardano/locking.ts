@@ -1,5 +1,5 @@
 import database from "../../database/client.js";
-import { ApiGraphQLError, ERROR_CODES, SellerToken } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES, SellerToken } from "@lovelacers/common";
 import { lockingTransactionBuilder } from "../../cardano/builders/locking.js";
 import { findOrderBySeller } from "../../common/findOrderBySeller.js";
 import { lockingEndpointSchema } from "../../validators/cardano/locking.js";

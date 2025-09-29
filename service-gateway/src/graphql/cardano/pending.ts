@@ -13,7 +13,7 @@ import {
   findSellerById,
   UserToken,
   compress,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { redisChat, redisPrice } from "../../database/redis.js";
 import { insertOrder } from "../../lib/order.js";
 import { chunkMetadata } from "../../lib/metadata.js";

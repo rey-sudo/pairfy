@@ -7,7 +7,7 @@ import {
   updateSeller,
   createEvent,
   findSellerById,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { Request, Response } from "express";
 import {
   tokenTypeValidator,

@@ -1,6 +1,6 @@
 import database from "../../database/client.js";
 import { findOrderByUser } from "../../common/findOrderByUser.js";
-import { ApiGraphQLError, ERROR_CODES, decompress } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES, decompress } from "@lovelacers/common";
 import { getOrderSchema } from "../../validators/getOrder.js";
 import { findOrderBySeller } from "../../common/findOrderBySeller.js";
 

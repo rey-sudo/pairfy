@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { emailSchema, passwordSchema, usernameSchema } from "@pairfy/common";
+import { emailSchema, passwordSchema, usernameSchema } from "@lovelacers/common";
 
 export const createSellerSchema = z.strictObject({
   email: emailSchema,

@@ -4,7 +4,7 @@ import {
   consumeEvent,
   logger,
   insertMedia
-} from "@pairfy/common";
+} from "@lovelacers/common";
 
 export const CreateMedia = async (
   event: any,

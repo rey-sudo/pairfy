@@ -1,4 +1,4 @@
-import { productIdSchema } from "@pairfy/common";
+import { productIdSchema } from "@lovelacers/common";
 import { z } from "zod";
 
 export const pendingEndpointSchema = z.strictObject({

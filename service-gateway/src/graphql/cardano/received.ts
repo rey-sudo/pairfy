@@ -1,6 +1,6 @@
 import database from "../../database/client.js";
 import { receivedTransactionBuilder } from "../../cardano/builders/received.js";
-import { ApiGraphQLError, ERROR_CODES, UserToken } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES, UserToken } from "@lovelacers/common";
 import { findOrderByUser } from "../../common/findOrderByUser.js";
 import { receivedEndpointSchema } from "../../validators/cardano/received.js";
 

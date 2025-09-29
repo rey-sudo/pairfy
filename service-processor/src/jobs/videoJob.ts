@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import ffmpeg from 'fluent-ffmpeg';
 import { createReadStream, existsSync, unlinkSync } from 'fs';
-import { logger } from '@pairfy/common';
+import { logger } from '@lovelacers/common';
 import { minioClient } from '../database/minio.js';
 import { uploadToSpaces } from '../utils/upload.js';
 import { Readable } from 'stream';

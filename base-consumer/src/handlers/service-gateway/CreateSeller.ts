@@ -4,7 +4,7 @@ import {
   consumeEvent,
   logger,
   insertSeller,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 
 export const CreateSeller = async (event: any, seq: number): Promise<boolean> => {
     let response = null;

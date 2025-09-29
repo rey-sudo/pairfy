@@ -17,7 +17,7 @@ import {
   logger,
   normalizeGraphError,
   RateLimiter,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import {
   redisBooks,
   redisState,

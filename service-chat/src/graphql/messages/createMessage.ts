@@ -1,4 +1,4 @@
-import { ApiGraphQLError, ERROR_CODES, getMessageId } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES, getMessageId } from "@lovelacers/common";
 import { createMessageSchema } from "../../validators/createMessage.js";
 
 export const createMessage = async (_: any, args: any, context: any) => {

@@ -1,4 +1,4 @@
-import { ApiGraphQLError, ERROR_CODES } from "@pairfy/common";
+import { ApiGraphQLError, ERROR_CODES } from "@lovelacers/common";
 import { validateParams } from "../../validators/searchProduct.js";
 import { findProductsByPrompt } from "../../database/weaviate.js";
 

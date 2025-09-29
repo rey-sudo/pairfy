@@ -8,7 +8,7 @@ import {
   findProductBySku,
   createEvent,
   sanitizeStringArray,
-} from "@pairfy/common";
+} from "@lovelacers/common";
 import { verifyParams } from "../../validators/create-product.js";
 import { checkFileGroup } from "../../utils/media.js";
 import {

@@ -2,7 +2,7 @@ import database from "../database/client.js";
 import { uploadToSpaces } from "../utils/upload.js";
 import { resizeImage } from "../utils/image.js";
 import { minioClient } from "../database/minio.js";
-import { createEvent, logger } from "@pairfy/common";
+import { createEvent, logger } from "@lovelacers/common";
 import { Readable } from "stream";
 import { Job } from "bullmq";
 

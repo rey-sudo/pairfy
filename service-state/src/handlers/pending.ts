@@ -1,4 +1,4 @@
-import { createEvent, getNotificationId } from "@pairfy/common";
+import { createEvent, getNotificationId } from "@lovelacers/common";
 import { UtxoData } from "../lib/index.js";
 import { Connection } from "mysql2/promise";
 import { updateOrder } from "../common/updateOrder.js";
