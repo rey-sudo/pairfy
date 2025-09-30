@@ -3,7 +3,6 @@
     <!-- Left -->
     <div class="nav-left">
       <a href="#">Inicia sesión</a>
-      <span>o</span>
       <a href="#">regístrate</a>
       <a href="#">Ofertas</a>
       <a href="#">Ayuda y contacto</a>
@@ -38,7 +37,7 @@
 .top-nav a {
   color: var(--text-0);
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .top-nav a:hover {

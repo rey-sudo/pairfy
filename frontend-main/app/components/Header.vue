@@ -4,7 +4,9 @@
       <TopNav />
     </div>
     <div class="Header-center"></div>
-    <div class="Header-bottom"></div>
+    <div class="Header-bottom">
+      <SubNav />
+    </div>
   </div>
 </template>
 
@@ -24,11 +26,12 @@
 
 .Header-center {
   height: 4rem;
-
   border-bottom: 1px solid var(--border-0);
 }
 
 .Header-bottom {
+  display: flex;
   height: 2rem;
+  justify-content: center;
 }
 </style>

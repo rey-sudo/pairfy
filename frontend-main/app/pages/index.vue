@@ -1,7 +1,7 @@
 <template>
   <div class="index">
     <div class="index-content">
-      <Divider margin="0.25rem" invisible />
+      <Divider margin="0.5rem" invisible />
       <Slider />
       <Divider margin="1rem" invisible />
       <Pool />

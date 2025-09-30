@@ -44,12 +44,36 @@ const products = [
     price: "COP $312.132",
     image: "https://i.ebayimg.com/thumbs/images/g/fNUAAOSwN91njmwe/s-l960.webp",
   },
+  {
+    name: "Vintage Inwin H500 Beige ATX Desktop Case",
+    price: "COP $585.209",
+    image: "https://i.ebayimg.com/images/g/wVQAAOSw1t9oXaBT/s-l500.webp",
+  },
+  {
+    name: "Jonsplus i100 Pro-G Mini-ITX Gaming Case",
+    price: "COP $312.132",
+    image: "https://i.ebayimg.com/images/g/Kk0AAeSwyKpo2rG5/s-l500.webp",
+  },
+  {
+    name: "Jonsplus i100 Pro-G Mini-ITX Gaming Case",
+    price: "COP $312.132",
+    image: "https://i.ebayimg.com/thumbs/images/g/fNUAAOSwN91njmwe/s-l960.webp",
+  },
+  {
+    name: "Vintage Inwin H500 Beige ATX Desktop Case",
+    price: "COP $585.209",
+    image: "https://i.ebayimg.com/images/g/wVQAAOSw1t9oXaBT/s-l500.webp",
+  },
+  {
+    name: "Jonsplus i100 Pro-G Mini-ITX Gaming Case",
+    price: "COP $312.132",
+    image: "https://i.ebayimg.com/images/g/Kk0AAeSwyKpo2rG5/s-l500.webp",
+  },
 ];
 </script>
 
 <style scoped>
 .products {
-  
 }
 
 .products-header {
