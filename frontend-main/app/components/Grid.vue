@@ -32,6 +32,9 @@
               <span> {{ product.discount }}%</span>
             </div>
           </div>
+          <div class="card-bottom">
+            <p>COP $53.420</p>
+          </div>
         </div>
       </div>
     </div>
@@ -166,17 +169,32 @@ const products = [
 
 .card-price {
   display: flex;
-  margin: 0;
+  margin-top: 1rem;
   font-weight: 700;
   align-items: center;
   font-size: var(--font-size-2);
   justify-content: space-between;
 }
 
+.card-price p {
+  margin: 0;
+}
+
 .card-discount {
   display: flex;
-  font-weight: 600;
+  font-weight: 500;
   align-items: center;
   color: var(--green-0);
+}
+
+.card-bottom {
+  margin-top: 0.5rem;
+}
+
+.card-bottom p {
+  margin: 0;
+  color: var(--text-1);
+  text-decoration: line-through;
+  font-size: var(--font-size-1);
 }
 </style>
