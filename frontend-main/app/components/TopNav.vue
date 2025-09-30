@@ -5,7 +5,7 @@
       <a href="#">Inicia sesión</a>
       <span>o</span>
       <a href="#">regístrate</a>
-      <a href="#">ebay Ofertas</a>
+      <a href="#">Ofertas</a>
       <a href="#">Ayuda y contacto</a>
     </div>
 
