@@ -100,14 +100,15 @@ const products = [
 }
 
 .card {
-  border: 1px solid #eee;
+  border: 1px solid var(--border-1);
   border-radius: var(--card-radius);
   overflow: hidden;
   box-sizing: border-box;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  background: #fff;
-  display: flex;
+  background: var(--background-0);
   flex-direction: column;
+  cursor: pointer;
+  display: flex;
 }
 
 .card:hover {
