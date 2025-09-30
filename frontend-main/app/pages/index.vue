@@ -17,7 +17,6 @@
 
 <style lang="css" scoped>
 .index {
-  padding: 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -26,6 +25,7 @@
 
 .index-content {
   width: 100%;
+  padding: 1rem;
   max-width: var(--body);
 }
 </style>

@@ -83,7 +83,7 @@
   box-sizing: border-box;
   font-weight: 500;
   color: var(--text-1);
-  padding: 2rem 1rem;
+  padding: 2rem 0;
   width: 100%;
 }
 
