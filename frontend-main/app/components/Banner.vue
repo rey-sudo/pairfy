@@ -1,5 +1,5 @@
 <template>
-  <div class="Banner">banner</div>
+  <div class="Banner"></div>
 </template>
 
 <script setup></script>
@@ -9,6 +9,6 @@
   width: 100%;
   display: flex;
   height: 400px;
-  background: black;
+  background: var(--background-1);
 }
 </style>
