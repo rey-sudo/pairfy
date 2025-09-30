@@ -1,5 +1,5 @@
 export default defineAppConfig({
-    title: 'Pairfy - Marketplace',
+    title: 'Lovelacers - Marketplace',
     theme: {
       dark: false,
       colors: {

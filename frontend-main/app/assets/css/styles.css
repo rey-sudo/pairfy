@@ -1,0 +1,187 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --font-size-0: 0.694rem;
+  --font-size-1: 0.833rem;
+  --font-size-2: 1rem;
+  --font-size-3: 1.2rem;
+  --font-size-4: 1.44rem;
+  --font-size-5: 1.728rem;
+  --font-size-6: 2.074rem;
+  --font-size-7: 2.488rem;
+  --font-size-8: 2.986rem;
+}
+
+:root {
+  --body-a: 1650px;
+
+  --background-a: #ffffff;
+  --background-b: #f7f9fb;
+
+  --text-a: #1a1a1a;
+  --text-b: #6b7280;
+  --text-w: #ffffff;
+
+  --border-0: #e5eaf1;
+  --border-1: #cbd5e1;
+
+  --primary-a: #2563eb;
+  --primary-a-base: 37, 99, 235;
+
+  --primary-b: #3b82f6;
+  --primary-b-base: 59, 130, 246;
+
+  --radius-a: 4px;     
+  --radius-b: 8px;    
+  --radius-c: 12px;   
+  --radius-d: 16px;    
+  --radius-e: 24px;   
+  --radius-f: 999px;   
+
+  --radius-0: 4px;     
+  --radius-1: 8px;    
+  --radius-2: 12px;   
+  --radius-3: 16px;    
+  --radius-4: 24px;   
+  --radius-5: 999px;   
+
+  --shadow-a: 0 6px 20px rgba(0, 0, 0, 0.08);
+  --shadow-b: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  --shadow-c: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-d: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  --shadow-e: 0 12px 24px rgba(0, 0, 0, 0.1);
+
+  --transition-a: 0.2s ease-in-out;
+  --placeholder-opacity: 0.9;
+
+  --gradient-a : linear-gradient(90deg, var(--primary-a),  var(--primary-b));
+}
+
+:root {
+  --red-a: #ef4444; /* Error / Critical */
+  --yellow-a: #facc15; /* Warning / Caution */
+  --green-a: #22c55e; /* Success / Confirmed */
+  --orange-a: #fb923c; /* Soft alert / Attention */
+  --purple-a: #8b5cf6; /* Info / Highlighted elements */
+  --gray-a: #1E293B;
+  --black-a: #000000;
+  --blue-b: #0C4AD2;
+  --blue-c: #0030B8;
+  
+  --red-bg: rgba(239, 68, 68, 0.1); /* Soft background for error states */
+  --yellow-bg: rgba(250, 204, 21, 0.1); /* Soft background for warnings */
+  --green-bg: rgba(34, 197, 94, 0.1); /* Soft background for success messages */
+  --orange-bg: rgba(251, 146, 60, 0.1); /* Soft background for attention */
+  --purple-bg: rgba(
+    139,
+    92,
+    246,
+    0.1
+  ); /* Soft background for informational badges */
+}
+
+:root {
+  --input-radius: var(--radius-b);
+  --button-radius: var(--radius-b);
+  --input-padding: 0.7rem 1rem; 
+  --button-padding: 0.75rem 1.5rem;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.flag {
+  width: 1rem;
+  height: 1rem;
+}
+
+input {
+  font-size: var(--text-size-1);
+}
+
+input::placeholder {
+  color: var(--text-b);
+}
+
+label {
+  font-size: var(--text-size-0);
+  font-weight: 600;
+}
+
+textarea {
+  font-size: var(--text-size-1);
+}
+
+textarea::placeholder {
+  font-size: var(--text-size-1);
+  color: var(--text-b);
+}
+
+.fade-title {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text-gradient {
+  background: var(--gradient-a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.red{
+  color: var(--red-a);
+}
+
+.green{
+  color: var(--green-a);
+}
+
+.blue{
+  color: var(--blue-a);
+}
+
+/* Transición fade + slide */
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.fade-slide-enter-from,
+.fade-slide-leave-to {
+  opacity: 0;
+  transform: translateY(-5px);
+}
+
+.fade-slide-enter-to,
+.fade-slide-leave-from {
+  opacity: 1;
+  transform: translateY(0);
+}

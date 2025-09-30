@@ -1,10 +1,10 @@
 <template>
-  <HomeSection1 />
+  <HomePage/>
 </template>
 
-<script setup lang="ts">
+<script setup>
 useHead({
-  title: 'Pairfy - Cardano marketplace',
+  title: 'Lovelacers - Cardano marketplace',
   meta: [
     { name: 'description', content: 'Buy and sell products on Cardano blockchain.' }
   ]

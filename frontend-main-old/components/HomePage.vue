@@ -1,7 +1,6 @@
 <template>
     <div class="SearchSection">
         <main class="SearchSection-body">
-            <SearchPrompt />
             <DividerComp />
             <ProductGrid title="Results" />
             <DividerComp invisible/>
