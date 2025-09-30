@@ -10,7 +10,10 @@
         <img class="card-image" :src="product.image" :alt="product.name" />
         <div class="card-body">
           <h3 class="card-title">{{ product.name }}</h3>
-          <p class="card-price">{{ product.price }}</p>
+          <div class="card-price">
+            <p>{{ product.price }}</p>
+            <span>15%</span>
+          </div>
         </div>
       </div>
     </div>
@@ -134,8 +137,10 @@ const products = [
 }
 
 .card-price {
-  color: #222;
+  display: flex;
   font-weight: bold;
+  align-items: center;
   font-size: var(--font-size-2);
+  justify-content: space-between;
 }
 </style>
