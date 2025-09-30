@@ -23,7 +23,7 @@ body {
 }
 
 :root {
-  --body-a: 1650px;
+  --body: 1488px;
 
   --background-0: #ffffff;
   --background-1: #f7f9fb;
@@ -41,19 +41,19 @@ body {
   --primary-b: #3b82f6;
   --primary-b-base: 59, 130, 246;
 
-  --radius-a: 4px;     
-  --radius-b: 8px;    
-  --radius-c: 12px;   
-  --radius-d: 16px;    
-  --radius-e: 24px;   
-  --radius-f: 999px;   
+  --radius-a: 4px;
+  --radius-b: 8px;
+  --radius-c: 12px;
+  --radius-d: 16px;
+  --radius-e: 24px;
+  --radius-f: 999px;
 
-  --radius-0: 4px;     
-  --radius-1: 8px;    
-  --radius-2: 12px;   
-  --radius-3: 16px;    
-  --radius-4: 24px;   
-  --radius-5: 999px;   
+  --radius-0: 4px;
+  --radius-1: 8px;
+  --radius-2: 12px;
+  --radius-3: 16px;
+  --radius-4: 24px;
+  --radius-5: 999px;
 
   --shadow-a: 0 6px 20px rgba(0, 0, 0, 0.08);
   --shadow-b: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
@@ -64,7 +64,7 @@ body {
   --transition-a: 0.2s ease-in-out;
   --placeholder-opacity: 0.9;
 
-  --gradient-a : linear-gradient(90deg, var(--primary-a),  var(--primary-b));
+  --gradient-a: linear-gradient(90deg, var(--primary-a), var(--primary-b));
 }
 
 :root {
@@ -73,11 +73,11 @@ body {
   --green-a: #22c55e; /* Success / Confirmed */
   --orange-a: #fb923c; /* Soft alert / Attention */
   --purple-a: #8b5cf6; /* Info / Highlighted elements */
-  --gray-a: #1E293B;
+  --gray-a: #1e293b;
   --black-a: #000000;
-  --blue-b: #0C4AD2;
-  --blue-c: #0030B8;
-  
+  --blue-b: #0c4ad2;
+  --blue-c: #0030b8;
+
   --red-bg: rgba(239, 68, 68, 0.1); /* Soft background for error states */
   --yellow-bg: rgba(250, 204, 21, 0.1); /* Soft background for warnings */
   --green-bg: rgba(34, 197, 94, 0.1); /* Soft background for success messages */
@@ -93,8 +93,12 @@ body {
 :root {
   --input-radius: var(--radius-b);
   --button-radius: var(--radius-b);
-  --input-padding: 0.7rem 1rem; 
+  --input-padding: 0.7rem 1rem;
   --button-padding: 0.75rem 1.5rem;
+}
+
+:root {
+  --card-radius: 16px;
 }
 
 .flex {
@@ -156,15 +160,15 @@ textarea::placeholder {
   -webkit-text-fill-color: transparent;
 }
 
-.red{
+.red {
   color: var(--red-a);
 }
 
-.green{
+.green {
   color: var(--green-a);
 }
 
-.blue{
+.blue {
   color: var(--blue-a);
 }
 
