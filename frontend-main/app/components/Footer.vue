@@ -54,7 +54,7 @@
             <li><a href="#" aria-label="YouTube">YouTube</a></li>
             <li><a href="#" aria-label="Instagram">Instagram</a></li>
             <li><a href="#" aria-label="Facebook">Facebook</a></li>
-            <li><a href="#" aria-label="X (Twitter)">X</a></li>
+            <li><a href="#" aria-label="X (Twitter)">X/Twitter</a></li>
             <li><a href="#" aria-label="GitHub">GitHub</a></li>
           </ul>
         </div>
