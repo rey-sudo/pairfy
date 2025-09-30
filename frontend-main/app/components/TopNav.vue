@@ -31,12 +31,12 @@
   display: flex;
   align-items: center;
   max-width: var(--body);
-  font-size: var(--font-size-0);
+  font-size: var(--font-size-1);
   justify-content: space-between;
 }
 
 .top-nav a {
-  color: var(--primary-0);
+  color: var(--text-0);
   text-decoration: none;
   font-weight: 400;
 }
