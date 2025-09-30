@@ -12,7 +12,25 @@
           <h3 class="card-title">{{ product.name }}</h3>
           <div class="card-price">
             <p>{{ product.price }}</p>
-            <span>15%</span>
+            <div class="card-discount">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-big-down-icon lucide-arrow-big-down"
+              >
+                <path
+                  d="M15 11a1 1 0 0 0 1 1h2.939a1 1 0 0 1 .75 1.811l-6.835 6.836a1.207 1.207 0 0 1-1.707 0L4.31 13.81a1 1 0 0 1 .75-1.811H8a1 1 0 0 0 1-1V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1z"
+                />
+              </svg>
+              <span> {{ product.discount }}%</span>
+            </div>
           </div>
         </div>
       </div>
@@ -26,51 +44,61 @@ const products = [
     name: "NCASE M1 V5.0 Black (Angled Front) Mini ITX PC",
     price: "COP $390.166",
     image: "https://i.ebayimg.com/images/g/sXsAAOSwCwtmKq4Y/s-l500.webp",
+    discount: 10,
   },
   {
     name: "NZXT H1 Mini ITX Gaming Tower Case Matte Black",
     price: "COP $629.688",
     image: "https://i.ebayimg.com/images/g/2f0AAeSwWB9oqJYS/s-l500.webp",
+    discount: 13,
   },
   {
     name: "Vintage Inwin H500 Beige ATX Desktop Case",
     price: "COP $585.209",
     image: "https://i.ebayimg.com/images/g/wVQAAOSw1t9oXaBT/s-l500.webp",
+    discount: 15,
   },
   {
     name: "Jonsplus i100 Pro-G Mini-ITX Gaming Case",
     price: "COP $312.132",
     image: "https://i.ebayimg.com/images/g/Kk0AAeSwyKpo2rG5/s-l500.webp",
+    discount: 17,
   },
   {
     name: "Jonsplus i100 Pro-G Mini-ITX Gaming Case",
     price: "COP $312.132",
     image: "https://i.ebayimg.com/thumbs/images/g/fNUAAOSwN91njmwe/s-l960.webp",
+    discount: 14,
   },
   {
     name: "Vintage Inwin H500 Beige ATX Desktop Case",
     price: "COP $585.209",
     image: "https://i.ebayimg.com/images/g/wVQAAOSw1t9oXaBT/s-l500.webp",
+    discount: 12,
   },
   {
     name: "Jonsplus i100 Pro-G Mini-ITX Gaming Case",
     price: "COP $312.132",
     image: "https://i.ebayimg.com/images/g/Kk0AAeSwyKpo2rG5/s-l500.webp",
+    discount: 20,
   },
   {
     name: "Jonsplus i100 Pro-G Mini-ITX Gaming Case",
     price: "COP $312.132",
     image: "https://i.ebayimg.com/thumbs/images/g/fNUAAOSwN91njmwe/s-l960.webp",
+    discount: 14,
   },
   {
     name: "Vintage Inwin H500 Beige ATX Desktop Case",
     price: "COP $585.209",
     image: "https://i.ebayimg.com/images/g/wVQAAOSw1t9oXaBT/s-l500.webp",
+    discount: 16,
   },
   {
     name: "Jonsplus i100 Pro-G Mini-ITX Gaming Case",
     price: "COP $312.132",
     image: "https://i.ebayimg.com/images/g/Kk0AAeSwyKpo2rG5/s-l500.webp",
+    discount: 19,
   },
 ];
 </script>
@@ -132,15 +160,22 @@ const products = [
 
 .card-title {
   font-size: var(--font-size-2);
-  font-weight: 600;
   margin: 0 0 0.5rem;
+  font-weight: 600;
 }
 
 .card-price {
   display: flex;
-  font-weight: bold;
+  font-weight: 700;
   align-items: center;
   font-size: var(--font-size-2);
   justify-content: space-between;
+}
+
+.card-discount {
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  color: var(--green-0);
 }
 </style>

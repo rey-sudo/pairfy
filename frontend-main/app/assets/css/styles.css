@@ -68,15 +68,15 @@ body {
 }
 
 :root {
-  --red-a: #ef4444; /* Error / Critical */
-  --yellow-a: #facc15; /* Warning / Caution */
-  --green-a: #22c55e; /* Success / Confirmed */
-  --orange-a: #fb923c; /* Soft alert / Attention */
-  --purple-a: #8b5cf6; /* Info / Highlighted elements */
-  --gray-a: #1e293b;
-  --black-a: #000000;
-  --blue-b: #0c4ad2;
-  --blue-c: #0030b8;
+  --red-0: #ef4444; /* Error / Critical */
+  --yellow-0: #facc15; /* Warning / Caution */
+  --green-0: #22c55e; /* Success / Confirmed */
+  --orange-0: #fb923c; /* Soft alert / Attention */
+  --purple-0: #8b5cf6; /* Info / Highlighted elements */
+  --gray-0: #1e293b;
+  --black-0: #000000;
+  --blue-0: #0c4ad2;
+  --blue-0: #0030b8;
 
   --red-bg: rgba(239, 68, 68, 0.1); /* Soft background for error states */
   --yellow-bg: rgba(250, 204, 21, 0.1); /* Soft background for warnings */
