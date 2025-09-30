@@ -39,7 +39,7 @@ const products = [
     price: "COP $312.132",
     image: "https://i.ebayimg.com/images/g/Kk0AAeSwyKpo2rG5/s-l500.webp",
   },
-    {
+  {
     name: "Jonsplus i100 Pro-G Mini-ITX Gaming Case",
     price: "COP $312.132",
     image: "https://i.ebayimg.com/thumbs/images/g/fNUAAOSwN91njmwe/s-l960.webp",
@@ -95,7 +95,8 @@ const products = [
 .card-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  max-height: 260px;
 }
 
 .card-body {
