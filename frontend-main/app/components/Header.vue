@@ -20,11 +20,10 @@
 
 .Header-center {
   height: 4rem;
-    border-bottom: 1px solid var(--border-0);
+  border-bottom: 1px solid var(--border-0);
 }
 
 .Header-bottom {
   height: 2rem;
-
 }
 </style>

@@ -1,7 +1,9 @@
 <template>
   <div class="index">
     <div class="index-content">
-      <Banner />
+      <Divider margin="0.25rem" invisible/>
+      <Slider />
+      <Pool />
       <Footer />
     </div>
   </div>
