@@ -78,6 +78,7 @@
 <style scoped>
 .footer {
   border-top: 1px solid var(--border-a);
+  background: var(--background-1);
   font-size: var(--font-size-1);
   box-sizing: border-box;
   color: var(--text-b);
@@ -86,7 +87,7 @@
 }
 
 .footer-container {
-  max-width: var(--body-a);
+  max-width: var(--body);
   margin: 0 auto;
   display: flex;
   flex-direction: column;

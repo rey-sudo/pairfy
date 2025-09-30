@@ -6,9 +6,9 @@
       <Divider margin="1rem" invisible />
       <Pool />
       <Divider margin="1rem" invisible />
-      <Grid /> 
-      <Footer />
+      <Grid />
     </div>
+    <Footer />
   </div>
 </template>
 
