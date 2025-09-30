@@ -6,6 +6,7 @@
       <Divider margin="1rem" invisible />
       <Pool />
       <Divider margin="1rem" invisible />
+      <Grid /> 
       <Footer />
     </div>
   </div>
@@ -15,6 +16,7 @@
 
 <style lang="css" scoped>
 .index {
+  padding: 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -22,6 +24,7 @@
 }
 
 .index-content {
-  width: var(--body);
+  width: 100%;
+  max-width: var(--body);
 }
 </style>

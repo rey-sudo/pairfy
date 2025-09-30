@@ -1,21 +1,15 @@
 <template>
-    <div class="Slider">
-
-    </div>
+  <div class="Slider"></div>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
 
 <style lang="css" scoped>
-.Slider{
-    width: 100%;
-    height: 360px;
-    background: #191919;
-    border-radius: var(--card-radius);
-   
-
-
+.Slider {
+  width: 100%;
+  height: 360px;
+  background: #191919;
+  border-radius: var(--card-radius);
+  background-image: url("https://http2.mlstatic.com/D_NQ_902737-MLA93049494998_092025-OO.webp");
 }
 </style>
