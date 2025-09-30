@@ -11,8 +11,7 @@
 
     <!-- Right -->
     <div class="nav-right">
-      <span>Enviar a</span>
-      <button class="lang-btn">🌐 Español</button>
+      <button class="lang-btn">🌐 ES</button>
       <a href="#">Vender</a>
       <a href="#">Lista de favoritos ▾</a>
       <a href="#">My Account ▾</a>
@@ -32,7 +31,7 @@
   display: flex;
   align-items: center;
   max-width: var(--body);
-  font-size: var(--font-size-1);
+  font-size: var(--font-size-0);
   justify-content: space-between;
 }
 
