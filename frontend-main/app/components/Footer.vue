@@ -49,7 +49,7 @@
 
         <!-- Social -->
         <div class="footer-column">
-          <h2 class="footer-title">Follow Us</h2>
+          <h2 class="footer-title">Networks</h2>
           <ul class="social-links">
             <li><a href="#" aria-label="YouTube">YouTube</a></li>
             <li><a href="#" aria-label="Instagram">Instagram</a></li>
@@ -81,6 +81,7 @@
   background: var(--background-1);
   font-size: var(--font-size-1);
   box-sizing: border-box;
+  font-weight: 500;
   color: var(--text-1);
   padding: 2rem 1rem;
   width: 100%;
@@ -106,7 +107,7 @@
 }
 
 .footer-title {
-  font-size: var(--font-size-2);
+  font-size: inherit;
   color: var(--text-0);
   margin-bottom: 1rem;
   font-weight: 700;

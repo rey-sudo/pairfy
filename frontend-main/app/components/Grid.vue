@@ -82,14 +82,14 @@ const products = [
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: var(--font-size-3);
   font-weight: bold;
   margin: 0;
 }
 
 .subtitle {
-  color: #666;
-  font-size: 1rem;
+  color: var(--text-1);
+  font-size: var(--font-size-2);
   margin: 0.3rem 0 0;
 }
 
@@ -127,7 +127,7 @@ const products = [
 }
 
 .card-title {
-  font-size: 1rem;
+  font-size: var(--font-size-2);
   font-weight: 600;
   margin: 0 0 0.5rem;
 }
@@ -135,5 +135,6 @@ const products = [
 .card-price {
   color: #222;
   font-weight: bold;
+  font-size: var(--font-size-2);
 }
 </style>

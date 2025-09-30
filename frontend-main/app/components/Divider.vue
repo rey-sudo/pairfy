@@ -3,7 +3,7 @@
     class="divider"
     :style="{
       margin,
-      borderTopColor: invisible ? 'transparent' : ''
+      borderTopColor: transparent ? 'transparent' : ''
     }"
   />
 </template>
@@ -11,11 +11,11 @@
 <script setup>
 const props = defineProps({
   margin: String,
-  invisible: Boolean
+  transparent: Boolean
 })
 
 const margin = props.margin ?? '2rem 0'
-const invisible = props.invisible ?? false
+const transparent = props.transparent ?? false
 </script>
 
 <style scoped>
