@@ -9,7 +9,7 @@
       <div class="card" v-for="(product, index) in products" :key="index">
         <img class="card-image" :src="product.image" :alt="product.name" />
         <div class="card-body">
-          <h3 class="card-title">{{ product.name }}</h3>
+          <p class="card-title">{{ product.name }}</p>
           <div class="card-price">
             <p>{{ product.price }}</p>
             <div class="card-discount">
@@ -160,12 +160,13 @@ const products = [
 
 .card-title {
   font-size: var(--font-size-2);
-  margin: 0 0 0.5rem;
-  font-weight: 600;
+  margin: 0;
+  font-weight: 500;
 }
 
 .card-price {
   display: flex;
+  margin: 0;
   font-weight: 700;
   align-items: center;
   font-size: var(--font-size-2);
