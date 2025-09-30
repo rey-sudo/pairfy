@@ -77,12 +77,12 @@
 
 <style scoped>
 .footer {
-  border-top: 1px solid var(--border-a);
+  border-top: 1px solid var(--border-0);
   background: var(--background-1);
   font-size: var(--font-size-1);
   box-sizing: border-box;
-  color: var(--text-b);
-  padding: 4rem 1rem;
+  color: var(--text-1);
+  padding: 2rem 1rem;
   width: 100%;
 }
 
@@ -107,7 +107,7 @@
 
 .footer-title {
   font-size: var(--font-size-2);
-  color: var(--text-a);
+  color: var(--text-0);
   margin-bottom: 1rem;
   font-weight: 700;
 }

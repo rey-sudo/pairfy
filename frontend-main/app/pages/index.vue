@@ -7,6 +7,7 @@
       <Pool />
       <Divider margin="1rem" invisible />
       <Grid />
+      <Divider margin="1rem" invisible />
     </div>
     <Footer />
   </div>
