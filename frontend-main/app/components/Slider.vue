@@ -14,5 +14,8 @@
     height: 360px;
     background: #191919;
     border-radius: var(--card-radius);
+   
+
+
 }
 </style>
