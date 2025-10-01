@@ -146,15 +146,14 @@ const products = [
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--card-shadow);
 }
 
 .card-image {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  max-height: 260px;
+  max-height: 250px;
 }
 
 .card-body {
