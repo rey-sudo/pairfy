@@ -5,10 +5,10 @@
     </div>
     <div class="Header-center">
       <Button
-        label="Connect wallet"
-        backgroundColor="transparent"
+        label="Connect Wallet"
+        backgroundColor="var(--black-0)"
         borderColor="var(--border-1)"
-        textColor="var(--text-0)" 
+        textColor="var(--text-w)" 
       />
     </div>
     <div class="Header-bottom">
