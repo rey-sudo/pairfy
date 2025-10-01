@@ -3,7 +3,14 @@
     <div class="Header-top">
       <TopNav />
     </div>
-    <div class="Header-center"></div>
+    <div class="Header-center">
+      <Button
+        label="Connect wallet"
+        backgroundColor="transparent"
+        borderColor="var(--border-1)"
+        textColor="var(--text-0)" 
+      />
+    </div>
     <div class="Header-bottom">
       <SubNav />
     </div>

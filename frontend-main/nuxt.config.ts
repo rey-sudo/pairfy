@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
+  modules: ["@lovelacers/sober"],
   css: [
     "~/assets/css/styles.css", // global CSS
   ],
