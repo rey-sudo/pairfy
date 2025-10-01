@@ -164,7 +164,7 @@ const products = [
 .card-title {
   font-size: var(--font-size-2);
   margin: 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .card-price {
