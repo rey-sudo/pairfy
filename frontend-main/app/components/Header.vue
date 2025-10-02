@@ -4,15 +4,7 @@
       <TopNav />
     </div>
     <div class="Header-center">
-      <Divider vertical  transparent/>
-      <Search />
-      <Divider vertical transparent />
-      <Button
-        label="Connect"
-        backgroundColor="var(--black-0)"
-        borderColor="var(--border-1)"
-        textColor="var(--text-w)"
-      />
+      <HeaderContent />
     </div>
     <div class="Header-bottom">
       <SubNav />
@@ -37,8 +29,7 @@
 .Header-center {
   height: 4rem;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   border-bottom: 1px solid var(--border-0);
 }
 
