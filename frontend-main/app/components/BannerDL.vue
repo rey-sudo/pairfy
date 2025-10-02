@@ -1,8 +1,7 @@
 <template>
   <div class="card">
     <div class="card-header">
-      <h3>Treasury</h3>
-      <button class="btn">Add transfer <span class="plus">+</span></button>
+      <h3>Discount Pool</h3>
     </div>
 
     <ul class="items">
@@ -12,7 +11,9 @@
             <span class="symbol">{{ item.symbol }}</span>
           </div>
           <div class="meta">
-            <div class="amount">{{ formatAmount(item.amount) }} {{ item.ticker }}</div>
+            <div class="amount">
+              {{ formatAmount(item.amount) }} {{ item.ticker }}
+            </div>
             <div class="usd">{{ formatUSD(item.usd) }} USD</div>
           </div>
         </div>
@@ -20,15 +21,19 @@
         <div class="right">
           <div class="percent">{{ item.pct }}%</div>
           <svg class="progress" viewBox="0 0 36 36">
-            <path class="bg" d="M18 2.0845
+            <path
+              class="bg"
+              d="M18 2.0845
                 a 15.9155 15.9155 0 0 1 0 31.831
-                a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
             <path
               class="fg"
               :stroke-dasharray="item.pct + ', 100'"
               d="M18 2.0845
                 a 15.9155 15.9155 0 0 1 0 31.831
-                a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
           </svg>
         </div>
       </li>
@@ -37,33 +42,34 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue'
+import { reactive } from "vue";
 
 const items = reactive([
-  { id: 1, symbol: '₮', ticker: 'USDT', amount: 24299.0, usd: 24299.0, pct: 47, color: '#e6f7ef' },
-  { id: 2, symbol: 'λ', ticker: 'AZERO', amount: 68345.0, usd: 21431.0, pct: 31, color: '#eef2ff' },
-  { id: 3, symbol: '◐', ticker: 'SYN', amount: 248299.0, usd: 16299.0, pct: 20, color: '#fff3e6' }
-])
+  {
+    id: 1,
+    symbol: "₮",
+    ticker: "ADA",
+    amount: 24299.0,
+    usd: 23299.0,
+    pct: 47,
+    color: "#e6f7ef",
+  },
+]);
 
 const formatAmount = (n) => {
-  return n.toLocaleString(undefined, { maximumFractionDigits: 0 })
-}
+  return n.toLocaleString(undefined, { maximumFractionDigits: 0 });
+};
 
 const formatUSD = (n) => {
-  return n.toLocaleString(undefined, { maximumFractionDigits: 0 })
-}
+  return n.toLocaleString(undefined, { maximumFractionDigits: 0 });
+};
 </script>
 
-<style>
-/* Vanilla CSS for the treasury card */
+<style scoped>
 .card {
-  width: 480px;
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 18px;
+  border-radius: var(--card-radius);
   border: 1px solid var(--border-1);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-  color: #0d1723;
+  padding: 1rem;
 }
 
 .card-header {
@@ -80,7 +86,7 @@ const formatUSD = (n) => {
 }
 
 .btn {
-  background: linear-gradient(90deg,#6b46ff,#9f7aea);
+  background: linear-gradient(90deg, #6b46ff, #9f7aea);
   color: white;
   border: none;
   padding: 8px 12px;
@@ -93,7 +99,7 @@ const formatUSD = (n) => {
 }
 
 .btn .plus {
-  background: rgba(255,255,255,0.16);
+  background: rgba(255, 255, 255, 0.16);
   width: 20px;
   height: 20px;
   display: inline-flex;
@@ -133,7 +139,7 @@ const formatUSD = (n) => {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0 0 0 1px rgba(13,23,34,0.04);
+  box-shadow: inset 0 0 0 1px rgba(13, 23, 34, 0.04);
 }
 
 .symbol {
@@ -190,6 +196,8 @@ const formatUSD = (n) => {
 
 /* small screens */
 @media (max-width: 520px) {
-  .card { width: 100%; }
+  .card {
+    width: 100%;
+  }
 }
 </style>

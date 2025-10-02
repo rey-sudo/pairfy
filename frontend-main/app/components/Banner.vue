@@ -1,6 +1,9 @@
 <template>
   <div class="banner">
-    <BannerLiquidity />
+    <BannerDL/>
+    <BannerDL />
+    <BannerDL />
+    <BannerDL />
   </div>
 </template>
 
@@ -8,6 +11,7 @@
 
 <style lang="css" scoped>
 .banner {
-
+  display: flex;
+  justify-content: space-between;
 }
 </style>
