@@ -1,8 +1,8 @@
 <template>
   <div class="banner">
     <BannerDL/>
-    <BannerDL />
-    <BannerDL />
+    <BannerSL />
+    <BannerTL />
   </div>
 </template>
 

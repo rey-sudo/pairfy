@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-header">
-      <h3>Discount Pool</h3>
+      <h3>Staking Pool</h3>
     </div>
 
     <ul class="items">
