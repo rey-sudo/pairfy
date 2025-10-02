@@ -3,7 +3,6 @@
     <BannerDL/>
     <BannerDL />
     <BannerDL />
-    <BannerDL />
   </div>
 </template>
 
@@ -12,6 +11,7 @@
 <style lang="css" scoped>
 .banner {
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
 }
 </style>
