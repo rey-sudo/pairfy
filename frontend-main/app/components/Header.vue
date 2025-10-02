@@ -4,11 +4,14 @@
       <TopNav />
     </div>
     <div class="Header-center">
+      <Divider vertical  transparent/>
+      <Search />
+      <Divider vertical transparent />
       <Button
-        label="Connect Wallet"
+        label="Connect"
         backgroundColor="var(--black-0)"
         borderColor="var(--border-1)"
-        textColor="var(--text-w)" 
+        textColor="var(--text-w)"
       />
     </div>
     <div class="Header-bottom">
@@ -33,6 +36,9 @@
 
 .Header-center {
   height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid var(--border-0);
 }
 

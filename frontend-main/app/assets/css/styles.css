@@ -41,12 +41,12 @@ body {
   --primary-b: #3b82f6;
   --primary-b-base: 59, 130, 246;
 
-  --radius-a: 4px;
-  --radius-b: 8px;
-  --radius-c: 12px;
-  --radius-d: 16px;
-  --radius-e: 24px;
-  --radius-f: 999px;
+  --radius-0: 4px;
+  --radius-1: 8px;
+  --radius-2: 16px;
+  --radius-3: 24px;
+  --radius-4: 32px;
+  --radius-5: 999px;
 
   --radius-0: 4px;
   --radius-1: 8px;
@@ -91,10 +91,9 @@ body {
 }
 
 :root {
-  --input-radius: var(--radius-b);
-  --button-radius: var(--radius-b);
+  --input-radius: var(--radius-3);
+
   --input-padding: 0.7rem 1rem;
-  --button-padding: 0.75rem 1.5rem;
 }
 
 :root {
