@@ -1,6 +1,6 @@
 <template>
   <div class="banner">
-    <LiquidityCard />
+    <BannerLiquidity />
   </div>
 </template>
 
