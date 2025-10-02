@@ -90,18 +90,10 @@ const selectSuggestion = (item: ProductSuggestion) => {
     padding: 0.75rem 1rem;
     box-sizing: border-box;
     font-size: var(--font-size-1);
-    border-radius: var(--radius-1);
+    border-radius: var(--radius-5);
     transition: var(--transition-0);
     background: var(--background-1);
     border: 2px solid var(--black-0);
-}
-
-.search-input:focus-within {
-    border: 1px solid var(--black-0);
-}
-
-.search-input:hover {
-    border: 1px solid var(--black-0);
 }
 
 .search-input::placeholder {
