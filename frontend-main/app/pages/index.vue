@@ -4,9 +4,9 @@
       <Divider margin="0.5rem" transparent />
       <Slider />
       <Divider margin="1rem" transparent />
-      <Pool />
+      <Banner />
       <Divider margin="1rem" transparent />
-      <Grid />
+      <ProductGrid />
       <Divider margin="2rem" transparent />
     </div>
     <Footer />
