@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@lovelacers/sober": "^0.1.14",
+    "@lovelacers/sober": "^0.1.16",
     "nuxt": "^4.1.2",
     "vue": "^3.5.22",
     "vue-router": "^4.5.1"

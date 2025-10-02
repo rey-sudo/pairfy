@@ -5,7 +5,7 @@
     <Divider vertical transparent />
     <Button
       label="Connect"
-      backgroundColor="var(--black-0)"
+      backgroundColor="var(--primary-0)" 
       borderColor="var(--border-1)"
       textColor="var(--text-w)"
     />
