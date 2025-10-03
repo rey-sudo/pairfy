@@ -121,7 +121,7 @@ const formatUSD = (n) => {
 .left {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 1rem;
 }
 
 .avatar {
