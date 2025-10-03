@@ -38,40 +38,44 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed } from "vue";
 
 const props = defineProps({
   percentage: { type: Number, default: 0 },
   size: { type: Number, default: 96 },
   stroke: { type: Number, default: 8 },
-  color: { type: String, default: '#3b82f6' }, 
-  trackColor: { type: String, default: '#e6e6e6' },
+  color: { type: String, default: "#3b82f6" },
+  trackColor: { type: String, default: "#e6e6e6" },
   clockwise: { type: Boolean, default: true },
-  transition: { type: Boolean, default: true }
-})
+  transition: { type: Boolean, default: true },
+});
 
-const clamped = computed(() => Math.max(0, Math.min(100, Number(props.percentage) || 0)))
+const clamped = computed(() =>
+  Math.max(0, Math.min(100, Number(props.percentage) || 0))
+);
 
-const radius = 45
-const circumference = 2 * Math.PI * radius
+const radius = 45;
+const circumference = 2 * Math.PI * radius;
 
 const offset = computed(() => {
   // progress length
-  const progress = (clamped.value / 100) * circumference
-  return circumference - progress
-})
+  const progress = (clamped.value / 100) * circumference;
+  return circumference - progress;
+});
 
 const progressStyle = computed(() => {
-  const rotation = props.clockwise ? -90 : -90 + 360
+  const rotation = props.clockwise ? -90 : -90 + 360;
   return {
     stroke: props.color,
     strokeDasharray: `${circumference} ${circumference}`,
     strokeDashoffset: `${offset.value}`,
     transform: `rotate(${rotation}deg)`,
-    transformOrigin: '50% 50%',
-    transition: props.transition ? 'stroke-dashoffset 600ms ease, stroke 200ms ease' : 'none'
-  }
-})
+    transformOrigin: "50% 50%",
+    transition: props.transition
+      ? "stroke-dashoffset 600ms ease, stroke 200ms ease"
+      : "none",
+  };
+});
 </script>
 
 <style scoped>
@@ -90,28 +94,23 @@ const progressStyle = computed(() => {
   stroke: var(--cp-track-color, #e6e6e6);
 }
 
-
 .cp-progress {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
-
 .cp-label {
-  position: absolute;
   inset: 0;
   display: flex;
+  font-weight: 600;
+  user-select: none;
+  position: absolute;
   align-items: center;
   justify-content: center;
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: #111827; 
-  user-select: none;
+  font-size: var(--font-size-1);
 }
-
 
 .circular-progress {
   --cp-track-color: #e6e6e6;
 }
 </style>
-
