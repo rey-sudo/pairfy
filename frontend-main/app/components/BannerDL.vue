@@ -5,16 +5,14 @@
     </div>
 
     <ul class="items">
-      <li v-for="(item, idx) in items" :key="item.id" class="item">
+      <li class="item" v-for="(item, idx) in items" :key="item.id">
         <div class="left">
           <div class="avatar">
-            <span class="symbol">
-              <img src="@/assets/icons/dl.svg" alt="" />
-            </span>
+            <img src="@/assets/icons/dl.svg" alt="" />
           </div>
           <div class="meta">
             <div class="amount">
-              {{ formatAmount(item.amount) }} {{ item.ticker }}
+              {{ formatADA(item.amount) }} {{ item.ticker }}
             </div>
             <div class="usd">{{ formatUSD(item.usd) }} USD</div>
           </div>
@@ -34,6 +32,7 @@
 
 <script setup>
 import { reactive } from "vue";
+import { formatADA, formatUSD } from "@/utils/format";
 
 const items = reactive([
   {
@@ -46,14 +45,6 @@ const items = reactive([
     color: "#e6f7ef",
   },
 ]);
-
-const formatAmount = (n) => {
-  return n.toLocaleString(undefined, { maximumFractionDigits: 0 });
-};
-
-const formatUSD = (n) => {
-  return n.toLocaleString(undefined, { maximumFractionDigits: 0 });
-};
 </script>
 
 <style scoped>
@@ -77,29 +68,6 @@ const formatUSD = (n) => {
   font-size: var(--font-size-2);
 }
 
-.btn {
-  background: linear-gradient(90deg, #6b46ff, #9f7aea);
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 999px;
-  font-weight: 600;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.btn .plus {
-  background: rgba(255, 255, 255, 0.16);
-  width: 20px;
-  height: 20px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-}
-
 .items {
   list-style: none;
   padding: 0;
@@ -112,10 +80,6 @@ const formatUSD = (n) => {
   justify-content: space-between;
   padding: 12px 8px;
   border-radius: 10px;
-}
-
-.item + .item {
-  margin-top: 8px;
 }
 
 .left {
@@ -131,11 +95,6 @@ const formatUSD = (n) => {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-}
-
-.symbol {
-  font-weight: 700;
-  font-size: 18px;
 }
 
 .meta {
@@ -159,32 +118,6 @@ const formatUSD = (n) => {
   align-items: center;
   padding-left: 1rem;
   gap: 1rem;
-}
-
-.percent {
-  font-weight: 700;
-  width: 36px;
-  text-align: right;
-}
-
-.progress {
-  width: 36px;
-  height: 36px;
-}
-
-.progress .bg {
-  fill: none;
-  stroke: #f1f5f9;
-  stroke-width: 3.5;
-}
-
-.progress .fg {
-  fill: none;
-  stroke: #6b46ff;
-  stroke-width: 3.5;
-  stroke-linecap: round;
-  transform: rotate(-90deg);
-  transform-origin: center;
 }
 
 /* small screens */

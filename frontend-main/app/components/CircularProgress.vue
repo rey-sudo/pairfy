@@ -102,12 +102,12 @@ const progressStyle = computed(() => {
 .cp-label {
   inset: 0;
   display: flex;
-  font-weight: 600;
+  font-weight: 700;
   user-select: none;
   position: absolute;
   align-items: center;
   justify-content: center;
-  font-size: var(--font-size-2);
+  font-size: var(--font-size-1);
 }
 
 .circular-progress {
