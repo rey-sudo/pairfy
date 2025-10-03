@@ -1,6 +1,6 @@
 <template>
   <div class="banner">
-    <BannerDL/>
+    <BannerDL />
     <BannerSL />
     <BannerTL />
   </div>
@@ -10,8 +10,8 @@
 
 <style lang="css" scoped>
 .banner {
+  gap: 1rem;
   display: flex;
-  gap: 2rem;
   justify-content: space-between;
 }
 </style>

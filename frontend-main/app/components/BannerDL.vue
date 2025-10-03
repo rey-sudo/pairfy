@@ -72,7 +72,7 @@ const formatUSD = (n) => {
 
 .card-header p {
   margin: 0;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 1rem;
   font-size: var(--font-size-2);
 }
@@ -145,12 +145,13 @@ const formatUSD = (n) => {
 
 .amount {
   font-weight: 700;
+  font-size: var(--font-size-2);
 }
 
 .usd {
-  font-size: 13px;
-  color: #556068;
-  margin-top: 2px;
+  font-size: var(--font-size-1);
+  color: var(--text-1);
+  margin-top: 0.25rem;
 }
 
 .right {
