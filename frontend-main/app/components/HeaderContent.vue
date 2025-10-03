@@ -2,7 +2,7 @@
   <div class="header-content">
     <Divider vertical transparent />
     <Search />
-    <Divider vertical transparent />
+    <Divider vertical transparent margin="0rem 0.5rem" />
     <Button
       label="Connect"
       backgroundColor="var(--primary-0)" 

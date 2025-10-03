@@ -17,7 +17,7 @@ const props = defineProps({
   vertical: Boolean,
 });
 
-const margin = props.margin;
+const margin = props.margin ?? "1rem 0";
 const transparent = props.transparent ?? false;
 </script>
 
@@ -27,7 +27,6 @@ const transparent = props.transparent ?? false;
   width: 100%;
   border: none;
   display: block;
-  margin: 2rem 0;
   max-width: var(--body-a);
   border-top: 1px solid var(--border-0);
 }
@@ -36,6 +35,5 @@ const transparent = props.transparent ?? false;
   width: 1px;
   height: 100%;
   background: var(--border-0);
-  margin: 0 1rem;
 }
 </style>

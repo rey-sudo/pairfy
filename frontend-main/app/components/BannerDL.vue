@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-header">
-      <h3>Discount Liquidity</h3>
+      <p>Discount Liquidity</p>
     </div>
 
     <ul class="items">
@@ -68,13 +68,13 @@ const formatUSD = (n) => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 14px;
 }
 
-.card-header h3 {
+.card-header p {
   margin: 0;
-  font-size: 16px;
   font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: var(--font-size-2);
 }
 
 .btn {
