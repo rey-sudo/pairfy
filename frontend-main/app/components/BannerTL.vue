@@ -1,24 +1,30 @@
 <template>
   <div class="card">
     <div class="card-header">
-      <h3>Treasury</h3>
+      <p>Treasury</p>
     </div>
 
     <ul class="items">
-      <li v-for="(item, idx) in items" :key="item.id" class="item">
+      <li class="item" v-for="(item, idx) in items" :key="item.id">
         <div class="left">
           <div class="avatar">
             <img src="@/assets/icons/cardano.png" alt="" />
           </div>
           <div class="meta">
             <div class="amount">
-              {{ formatAmount(item.amount) }} {{ item.ticker }}
+              {{ formatADA(item.amount) }} {{ item.ticker }}
             </div>
             <div class="usd">{{ formatUSD(item.usd) }} USD</div>
           </div>
         </div>
 
-        <div class="right"></div>
+        <div class="right">
+          <CircularProgress
+            :size="55"
+            :percentage="30"
+            color="var(--primary-1)"
+          />
+        </div>
       </li>
     </ul>
   </div>
@@ -26,26 +32,19 @@
 
 <script setup>
 import { reactive } from "vue";
+import { formatADA, formatUSD } from "@/utils/format";
 
 const items = reactive([
   {
     id: 1,
     symbol: "₮",
     ticker: "ADA",
-    amount: 24299.0,
-    usd: 23299.0,
+    amount: 152910.0,
+    usd: 125200.0,
     pct: 47,
     color: "#e6f7ef",
   },
 ]);
-
-const formatAmount = (n) => {
-  return n.toLocaleString(undefined, { maximumFractionDigits: 0 });
-};
-
-const formatUSD = (n) => {
-  return n.toLocaleString(undefined, { maximumFractionDigits: 0 });
-};
 </script>
 
 <style scoped>
@@ -60,36 +59,13 @@ const formatUSD = (n) => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 14px;
 }
 
-.card-header h3 {
+.card-header p {
   margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.btn {
-  background: linear-gradient(90deg, #6b46ff, #9f7aea);
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 999px;
-  font-weight: 600;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.btn .plus {
-  background: rgba(255, 255, 255, 0.16);
-  width: 20px;
-  height: 20px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: var(--font-size-2);
 }
 
 .items {
@@ -106,29 +82,19 @@ const formatUSD = (n) => {
   border-radius: 10px;
 }
 
-.item + .item {
-  margin-top: 8px;
-}
-
 .left {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 1rem;
 }
 
 .avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0 0 0 1px rgba(13, 23, 34, 0.04);
-}
-
-.symbol {
-  font-weight: 700;
-  font-size: 18px;
+  box-sizing: border-box;
 }
 
 .meta {
@@ -138,12 +104,13 @@ const formatUSD = (n) => {
 
 .amount {
   font-weight: 700;
+  font-size: var(--font-size-2);
 }
 
 .usd {
-  font-size: 13px;
-  color: #556068;
-  margin-top: 2px;
+  font-size: var(--font-size-1);
+  color: var(--text-1);
+  margin-top: 0.25rem;
 }
 
 .right {
@@ -151,32 +118,6 @@ const formatUSD = (n) => {
   align-items: center;
   padding-left: 1rem;
   gap: 1rem;
-}
-
-.percent {
-  font-weight: 700;
-  width: 36px;
-  text-align: right;
-}
-
-.progress {
-  width: 36px;
-  height: 36px;
-}
-
-.progress .bg {
-  fill: none;
-  stroke: #f1f5f9;
-  stroke-width: 3.5;
-}
-
-.progress .fg {
-  fill: none;
-  stroke: #6b46ff;
-  stroke-width: 3.5;
-  stroke-linecap: round;
-  transform: rotate(-90deg);
-  transform-origin: center;
 }
 
 /* small screens */
