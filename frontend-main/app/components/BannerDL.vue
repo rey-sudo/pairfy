@@ -22,7 +22,7 @@
 
         <div class="right">
           <CircularProgress
-            :size="50"
+            :size="60"
             :percentage="40"
             color="var(--primary-0)"
           />

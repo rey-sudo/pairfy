@@ -107,7 +107,7 @@ const progressStyle = computed(() => {
   position: absolute;
   align-items: center;
   justify-content: center;
-  font-size: var(--font-size-1);
+  font-size: var(--font-size-2);
 }
 
 .circular-progress {
