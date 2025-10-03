@@ -5,7 +5,7 @@
       <Slider />
       <Divider margin="1rem" transparent />
       <Banner />
-      <Divider margin="1rem" transparent />
+      <Divider margin="2rem" transparent />
       <ProductGrid />
       <Divider margin="2rem" transparent />
     </div>

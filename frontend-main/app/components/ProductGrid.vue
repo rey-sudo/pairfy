@@ -1,8 +1,17 @@
 <template>
   <section class="products">
     <div class="products-header">
-      <h2 class="title">Recommended for you</h2>
-      <p class="subtitle">Technology</p>
+      <div class="header-left">
+        <h2 class="title">Recommended for you</h2>
+        <p class="subtitle">Technology</p>
+      </div>
+      <div class="header-right">
+        <Button
+          label="See all"
+          backgroundColor="transparent"
+          borderColor="var(--border-1)"
+        />
+      </div>
     </div>
 
     <div class="grid">
@@ -111,8 +120,10 @@ const products = [
 }
 
 .products-header {
+  display: flex;
   text-align: left;
   margin-bottom: 1.5rem;
+  justify-content: space-between;
 }
 
 .title {
