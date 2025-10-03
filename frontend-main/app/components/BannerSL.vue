@@ -7,8 +7,8 @@
     <ul class="items">
       <li v-for="(item, idx) in items" :key="item.id" class="item">
         <div class="left">
-          <div class="avatar" :style="{ backgroundColor: item.color }">
-            <span class="symbol">{{ item.symbol }}</span>
+          <div class="avatar">
+            <img src="@/assets/icons/cardano.png" alt="" /> 
           </div>
           <div class="meta">
             <div class="amount">
