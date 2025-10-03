@@ -11,7 +11,7 @@
 <style lang="css" scoped>
 .banner {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: space-between;
 }
 </style>
