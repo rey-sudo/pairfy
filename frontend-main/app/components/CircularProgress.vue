@@ -42,7 +42,7 @@ import { computed } from "vue";
 
 const props = defineProps({
   percentage: { type: Number, default: 0 },
-  size: { type: Number, default: 96 },
+  size: { type: Number, default: 50 },
   stroke: { type: Number, default: 8 },
   color: { type: String, default: "#3b82f6" },
   trackColor: { type: String, default: "#e6e6e6" },
