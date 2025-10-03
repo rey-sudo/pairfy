@@ -8,8 +8,8 @@
       <li v-for="(item, idx) in items" :key="item.id" class="item">
         <div class="left">
           <div class="avatar">
-            <span class="symbol"> 
-              <img src="@/assets/icons/dl.svg" alt="">
+            <span class="symbol">
+              <img src="@/assets/icons/dl.svg" alt="" />
             </span>
           </div>
           <div class="meta">
@@ -21,7 +21,11 @@
         </div>
 
         <div class="right">
-          <CircularProgress :size="50" :percentage="63" />
+          <CircularProgress
+            :size="50"
+            :percentage="40"
+            color="var(--primary-0)"
+          />
         </div>
       </li>
     </ul>
@@ -126,7 +130,7 @@ const formatUSD = (n) => {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .symbol {

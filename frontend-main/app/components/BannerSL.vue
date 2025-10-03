@@ -8,7 +8,7 @@
       <li v-for="(item, idx) in items" :key="item.id" class="item">
         <div class="left">
           <div class="avatar">
-            <img src="@/assets/icons/cardano.png" alt="" /> 
+            <img src="@/assets/icons/cardano.png" alt="" />
           </div>
           <div class="meta">
             <div class="amount">
@@ -19,7 +19,11 @@
         </div>
 
         <div class="right">
-          <CircularProgress :size="50" :percentage="63" />
+          <CircularProgress
+            :size="50"
+            :percentage="63"
+            color="var(--primary-0)"
+          />
         </div>
       </li>
     </ul>
