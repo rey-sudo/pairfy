@@ -1,8 +1,8 @@
 <template>
   <section class="products">
     <div class="products-header">
-      <h2 class="title">Estantes para computadora</h2>
-      <p class="subtitle">Recomendados para ti</p>
+      <h2 class="title">Recommended for you</h2>
+      <p class="subtitle">Technology</p>
     </div>
 
     <div class="grid">
@@ -130,7 +130,7 @@ const products = [
 .grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .card {
@@ -153,7 +153,7 @@ const products = [
   width: 100%;
   height: 100%;
   object-fit: contain;
-  max-height: 250px;
+  max-height: 260px;
 }
 
 .card-body {
