@@ -42,7 +42,7 @@ body {
   --primary-b-base: 59, 130, 246;
 
   --radius-0: 4px;
-  --radius-1: 8px;
+  --radius-1: 6px;
   --radius-2: 16px;
   --radius-3: 24px;
   --radius-4: 32px;
@@ -99,6 +99,10 @@ body {
 :root {
   --card-radius: 16px;
   --card-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+:root {
+  --icon-radius: 8px;
 }
 
 .flex {

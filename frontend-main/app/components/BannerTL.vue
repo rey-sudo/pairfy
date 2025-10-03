@@ -19,7 +19,7 @@
         </div>
 
         <div class="right">
-          <CircularProgress size="50" percentage="63" />
+          <CircularProgress :size="50" :percentage="63" />
         </div>
       </li>
     </ul>

@@ -1,14 +1,16 @@
 <template>
   <div class="card">
     <div class="card-header">
-      <h3>Discount Pool</h3>
+      <h3>Discount Liquidity</h3>
     </div>
 
     <ul class="items">
       <li v-for="(item, idx) in items" :key="item.id" class="item">
         <div class="left">
-          <div class="avatar" :style="{ backgroundColor: item.color }">
-            <span class="symbol">{{ item.symbol }}</span>
+          <div class="avatar">
+            <span class="symbol"> 
+              <img src="@/assets/icons/dl.svg" alt="">
+            </span>
           </div>
           <div class="meta">
             <div class="amount">
@@ -19,7 +21,7 @@
         </div>
 
         <div class="right">
-          <CircularProgress size="50" percentage="63" />
+          <CircularProgress :size="50" :percentage="63" />
         </div>
       </li>
     </ul>
@@ -119,13 +121,11 @@ const formatUSD = (n) => {
 }
 
 .avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0 0 0 1px rgba(13, 23, 34, 0.04);
 }
 
 .symbol {
