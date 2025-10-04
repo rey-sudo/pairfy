@@ -22,7 +22,7 @@
           <CircularProgress
             :size="55"
             :percentage="72"
-            color="var(--primary-1)"
+            color="var(--red-0)"
           />
         </div>
       </li>
