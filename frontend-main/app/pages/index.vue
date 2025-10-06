@@ -3,11 +3,11 @@
     <div class="index-content">
       <Divider margin="0.5rem" transparent />
       <Slider />
-      <Divider margin="2rem" transparent />
-      <Banner />
       <Divider margin="1rem" transparent />
+      <Banner />
+      <Divider margin="1.5rem" transparent />
       <ProductGrid />
-      <Divider margin="2rem" transparent />
+      <Divider margin="1rem" transparent />
     </div>
     <Footer />
   </div>

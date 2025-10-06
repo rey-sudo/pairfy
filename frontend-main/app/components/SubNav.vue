@@ -58,8 +58,7 @@ const menu = ref([
 .menu-item {
   position: relative;
   cursor: pointer;
-  color: #333;
-  font-weight: 500;
+  font-weight: 400;
   transition: color 0.2s ease-in-out;
 }
 
