@@ -9,9 +9,9 @@
   width: 100%;
   height: 360px;
   border-radius: var(--card-radius);
-  background-image: url("https://img.freepik.com/free-photo/medium-shot-woman-working-laptop_23-2149161001.jpg");
+  background-image: url("https://img.freepik.com/free-photo/medium-shot-couple-watching-tv_23-2148861202.jpg");
   background-repeat: no-repeat;
-  background-position-y: 10%;
-  background-size: cover;
+  background-position-y: 80%;
+  background-size: contain;
 }
 </style>

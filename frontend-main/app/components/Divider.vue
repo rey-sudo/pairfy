@@ -27,7 +27,7 @@ const transparent = props.transparent ?? false;
   width: 100%;
   border: none;
   display: block;
-  max-width: var(--body-a);
+  max-width: var(--body);
   border-top: 1px solid var(--border-0);
 }
 
