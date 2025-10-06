@@ -12,6 +12,6 @@
   background-image: url("https://img.freepik.com/free-photo/medium-shot-couple-watching-tv_23-2148861202.jpg");
   background-repeat: no-repeat;
   background-position-y: 80%;
-  background-size: contain;
+  background-size: cover;
 }
 </style>
