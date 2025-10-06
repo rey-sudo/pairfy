@@ -78,8 +78,7 @@ const items = reactive([
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 8px;
-  border-radius: 10px;
+  padding: 0.5rem;
 }
 
 .left {
