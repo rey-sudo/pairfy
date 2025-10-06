@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-header">
-      <p>Discount Liquidity</p>
+      <p>Discount Pool</p>
     </div>
 
     <ul class="items">

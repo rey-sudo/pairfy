@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
-    <BannerDL />
-    <BannerSL />
+    <BannerDP />
+    <BannerSP />
     <BannerTL />
   </div>
 </template>
