@@ -41,9 +41,8 @@ const menu = ref([
 </script>
 
 <style>
-/* ===== Estilos Generales ===== */
 .navbar {
-  background-color: #fff;
+
 }
 
 .menu {
@@ -56,6 +55,7 @@ const menu = ref([
 }
 
 .menu-item {
+  color: var(--text-1);
   position: relative;
   cursor: pointer;
   font-weight: 500;
