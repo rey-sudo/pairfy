@@ -35,7 +35,6 @@
 
 .Header-bottom {
   display: flex;
-  height: 2rem;
   justify-content: center;
 }
 </style>

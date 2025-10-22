@@ -1,8 +1,10 @@
 <template>
   <div class="banner">
-    <BannerDP />
-    <BannerTL />
-    <BannerSP />
+    <div class="banner-content">
+      <BannerDP />
+      <BannerTL />
+      <BannerSP />
+    </div>
   </div>
 </template>
 
@@ -10,8 +12,16 @@
 
 <style lang="css" scoped>
 .banner {
-  gap: 1rem;
+  width: 100%;
   display: flex;
+  justify-content: center;
+}
+
+.banner-content {
+  gap: 1rem;
+  width: 100%;
+  display: flex;
+  max-width: var(--body);
   justify-content: space-between;
 }
 </style>

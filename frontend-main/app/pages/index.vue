@@ -24,7 +24,5 @@
 
 .index-content {
   width: 100%;
-  padding: 1rem;
-  max-width: var(--body);
 }
 </style>

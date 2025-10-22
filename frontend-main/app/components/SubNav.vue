@@ -1,20 +1,12 @@
 <template>
   <nav class="navbar">
     <ul class="menu">
-      <li
-        v-for="(item, index) in menu"
-        :key="index"
-        class="menu-item"
-      >
+      <li v-for="(item, index) in menu" :key="index" class="menu-item">
         <span>{{ item.name }}</span>
 
         <!-- Submenú -->
         <ul v-if="item.children" class="submenu">
-          <li
-            v-for="(child, i) in item.children"
-            :key="i"
-            class="submenu-item"
-          >
+          <li v-for="(child, i) in item.children" :key="i" class="submenu-item">
             {{ child }}
           </li>
         </ul>
@@ -27,30 +19,34 @@
 import { ref } from "vue";
 
 const menu = ref([
-  { name: "Technology", children: ["Phones", "Laptops", "Tablets", "Accessories"] },
+  {
+    name: "Technology",
+    children: ["Phones", "Laptops", "Tablets", "Accessories"],
+  },
   { name: "Vehicles", children: ["Cars", "Motorcycles", "Trucks"] },
   { name: "Fashion", children: ["Men", "Women", "Kids"] },
   { name: "Collectibles & Art" },
   { name: "Sports", children: ["Fitness", "Cycling", "Soccer"] },
-  { name: "Health & Beauty", children: ["Perfumes", "Makeup", "Personal Care"] },
+  {
+    name: "Health & Beauty",
+    children: ["Perfumes", "Makeup", "Personal Care"],
+  },
   { name: "Home & Garden", children: ["Furniture", "Decor", "Kitchen"] },
   { name: "Deals" },
-  { name: "Sell" }
+  { name: "Sell" },
 ]);
-
 </script>
 
 <style>
 .navbar {
-
 }
 
 .menu {
-  display: flex;
   gap: 2rem;
+  margin: 0;
+  display: flex;
   list-style: none;
   padding: 1rem 2rem;
-  margin: 0;
   font-size: var(--font-size-1);
 }
 
@@ -63,21 +59,21 @@ const menu = ref([
 }
 
 .menu-item:hover {
-  color: #0073e6; 
+  color: #0073e6;
 }
 
 .submenu {
   position: absolute;
   top: 100%;
   left: 0;
-  display: none; 
+  display: none;
   flex-direction: column;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 0.5rem 0;
   min-width: 180px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
 
