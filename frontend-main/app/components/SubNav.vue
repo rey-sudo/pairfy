@@ -26,18 +26,18 @@
 <script setup>
 import { ref } from "vue";
 
-// Configuración del menú: más fácil de escalar
 const menu = ref([
-  { name: "Tecnología", children: ["Celulares", "Laptops", "Tablets", "Accesorios"] },
-  { name: "Vehículos", children: ["Autos", "Motos", "Camiones"] },
-  { name: "Moda", children: ["Hombres", "Mujeres", "Niños"] },
-  { name: "Coleccionables y Arte" },
-  { name: "Deportes", children: ["Fitness", "Ciclismo", "Fútbol"] },
-  { name: "Salud y Belleza", children: ["Perfumes", "Maquillaje", "Cuidado personal"] },
-  { name: "Hogar y Jardín", children: ["Muebles", "Decoración", "Cocina"] },
-  { name: "Ofertas" },
-  { name: "Vender" }
+  { name: "Technology", children: ["Phones", "Laptops", "Tablets", "Accessories"] },
+  { name: "Vehicles", children: ["Cars", "Motorcycles", "Trucks"] },
+  { name: "Fashion", children: ["Men", "Women", "Kids"] },
+  { name: "Collectibles & Art" },
+  { name: "Sports", children: ["Fitness", "Cycling", "Soccer"] },
+  { name: "Health & Beauty", children: ["Perfumes", "Makeup", "Personal Care"] },
+  { name: "Home & Garden", children: ["Furniture", "Decor", "Kitchen"] },
+  { name: "Deals" },
+  { name: "Sell" }
 ]);
+
 </script>
 
 <style>
@@ -63,15 +63,14 @@ const menu = ref([
 }
 
 .menu-item:hover {
-  color: #0073e6; /* azul estilo e-commerce */
+  color: #0073e6; 
 }
 
-/* ===== Submenú ===== */
 .submenu {
   position: absolute;
   top: 100%;
   left: 0;
-  display: none; /* Oculto por defecto */
+  display: none; 
   flex-direction: column;
   background: #fff;
   border: 1px solid #ddd;
@@ -92,7 +91,6 @@ const menu = ref([
   background: #f5f5f5;
 }
 
-/* Mostrar el submenú al pasar el mouse */
 .menu-item:hover > .submenu {
   display: flex;
 }

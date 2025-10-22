@@ -23,14 +23,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="11.799844"
-     inkscape:cx="48.517589"
-     inkscape:cy="14.957824"
-     inkscape:window-width="1920"
-     inkscape:window-height="1003"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:zoom="5.899922"
+     inkscape:cx="31.102106"
+     inkscape:cy="42.288695"
+     inkscape:window-width="1484"
+     inkscape:window-height="983"
+     inkscape:window-x="1567"
+     inkscape:window-y="317"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
      id="defs1" />
@@ -40,14 +40,14 @@
      id="layer1">
     <text
        xml:space="preserve"
-       style="font-size:18.6667px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
-       x="1.1864568"
-       y="26.780014"
+       style="font-size:29.3333px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
+       x="-2.1119976"
+       y="30.899693"
        id="text1"><tspan
          sodipodi:role="line"
-         id="tspan1"
-         x="1.1864568"
-         y="26.780014"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'">lovelacers</tspan></text>
+         x="-2.1119976"
+         y="30.899693"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:29.3333px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'"
+         id="tspan2">lacers</tspan></text>
   </g>
 </svg>
