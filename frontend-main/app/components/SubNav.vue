@@ -88,9 +88,9 @@ const menu = ref([
   font-weight: 500;
   cursor: pointer;
   display: flex;
-  width: 200px;
-  padding: 0.5rem 1rem;
+  width: 250px;
   margin-right: 3rem;
+  padding: 0.5rem 1rem;
   border-radius: var(--radius-5);
   background: var(--background-1);
 }
