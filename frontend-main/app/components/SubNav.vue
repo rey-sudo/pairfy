@@ -48,7 +48,10 @@ const menu = ref([
     name: "Electronics & Devices",
     children: ["Phones", "Laptops", "Tablets", "Accessories"],
   },
-  { name: "Digital Content & Software", children: ["Cars", "Motorcycles", "Trucks"] },
+  {
+    name: "Digital Content & Software",
+    children: ["Cars", "Motorcycles", "Trucks"],
+  },
   { name: "Clothing & Fashion", children: ["Men", "Women", "Kids"] },
   { name: "Collectibles & Art" },
   { name: "Sports", children: ["Fitness", "Cycling", "Soccer"] },
@@ -57,7 +60,7 @@ const menu = ref([
     children: ["Perfumes", "Makeup", "Personal Care"],
   },
   { name: "Jewelry & Watches", children: ["Furniture", "Decor", "Kitchen"] },
-  { name: "Health, Wellness & Beauty" }
+  { name: "Health, Wellness & Beauty" },
 ]);
 </script>
 
@@ -86,6 +89,10 @@ const menu = ref([
   cursor: pointer;
   display: flex;
   width: 200px;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: var(--radius-5);
+  background: var(--background-1);
 }
 
 .menu {
@@ -105,11 +112,10 @@ const menu = ref([
   display: none;
 }
 
-.menu {       
-  -ms-overflow-style: none;    
-  scrollbar-width: 2rem;      
+.menu {
+  -ms-overflow-style: none;
+  scrollbar-width: 2rem;
 }
-
 
 .menu-item {
   color: var(--text-0);
