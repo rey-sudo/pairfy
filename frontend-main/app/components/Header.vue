@@ -30,7 +30,6 @@
   height: 4rem;
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid var(--border-0);
 }
 
 .Header-bottom {

@@ -1,17 +1,42 @@
 <template>
   <nav class="navbar">
-    <ul class="menu">
-      <li v-for="(item, index) in menu" :key="index" class="menu-item">
-        <span>{{ item.name }}</span>
+    <div class="navbar-content">
+      <div class="categories">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-menu-icon lucide-menu"
+        >
+          <path d="M4 5h16" />
+          <path d="M4 12h16" />
+          <path d="M4 19h16" />
+        </svg>
+        <span style="margin-left: 1rem">All Categories</span>
+      </div>
+      <ul class="menu">
+        <li v-for="(item, index) in menu" :key="index" class="menu-item">
+          <span>{{ item.name }}</span>
 
-        <!-- Submenú -->
-        <ul v-if="item.children" class="submenu">
-          <li v-for="(child, i) in item.children" :key="i" class="submenu-item">
-            {{ child }}
-          </li>
-        </ul>
-      </li>
-    </ul>
+          <!-- Submenú -->
+          <ul v-if="item.children" class="submenu">
+            <li
+              v-for="(child, i) in item.children"
+              :key="i"
+              class="submenu-item"
+            >
+              {{ child }}
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </nav>
 </template>
 
@@ -34,14 +59,49 @@ const menu = ref([
   { name: "Home & Garden", children: ["Furniture", "Decor", "Kitchen"] },
   { name: "Deals" },
   { name: "Sell" },
+  { name: "Home & Garden", children: ["Furniture", "Decor", "Kitchen"] },
+  {
+    name: "Health & Beauty",
+    children: ["Perfumes", "Makeup", "Personal Care"],
+  },
+  { name: "Sports", children: ["Fitness", "Cycling", "Soccer"] },
+  {
+    name: "Health & Beauty",
+    children: ["Perfumes", "Makeup", "Personal Care"],
+  }
 ]);
 </script>
 
-<style>
+<style scoped>
 .navbar {
   width: 100%;
   display: flex;
   justify-content: center;
+  font-size: var(--font-size-1);
+  box-sizing: border-box;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.navbar-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  max-width: var(--body);
+  box-sizing: border-box;
+}
+
+.categories {
+  border-radius: var(--button-radius);
+  background: var(--background-1);
+  padding: 0.75rem 1rem;
+  align-items: center;
+  white-space: nowrap;
+  margin-right: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  width: 200px;
 }
 
 .menu {
@@ -52,15 +112,14 @@ const menu = ref([
   list-style: none;
   padding: 1rem 0rem;
   max-width: var(--body);
-  justify-content: center;
-  font-size: var(--font-size-1);
+  justify-content: flex-start;
+  overflow-x: auto;
 }
 
 .menu-item {
   color: var(--text-0);
   position: relative;
   cursor: pointer;
-  font-weight: 500;
   transition: color 0.2s ease-in-out;
 }
 
