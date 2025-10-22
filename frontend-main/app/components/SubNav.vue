@@ -39,14 +39,20 @@ const menu = ref([
 
 <style>
 .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
   gap: 2rem;
   margin: 0;
+  width: 100%;
   display: flex;
   list-style: none;
-  padding: 1rem 2rem;
+  padding: 1rem 0rem;
+  max-width: var(--body);
+  justify-content: center;
   font-size: var(--font-size-1);
 }
 
@@ -54,7 +60,7 @@ const menu = ref([
   color: var(--text-0);
   position: relative;
   cursor: pointer;
-  font-weight: 400;
+  font-weight: 500;
   transition: color 0.2s ease-in-out;
 }
 

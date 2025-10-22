@@ -1,38 +1,40 @@
 <template>
-  <section class="products">
-    <div class="products-header">
-      <div class="header-left">
-        <h2 class="title">Recommended for you</h2>
-        <p class="subtitle">Technology</p>
+  <div class="products">
+    <div class="products-content">
+      <div class="header">
+        <div class="header-left">
+          <h2 class="title">Recommended for you</h2>
+          <p class="subtitle">Technology</p>
+        </div>
+        <div class="header-right">
+          <Button
+            label="See all"
+            backgroundColor="transparent"
+            borderColor="var(--border-1)"
+          />
+        </div>
       </div>
-      <div class="header-right">
-        <Button
-          label="See all"
-          backgroundColor="transparent"
-          borderColor="var(--border-1)"
-        />
-      </div>
-    </div>
 
-    <div class="grid">
-      <div class="card" v-for="(product, index) in products" :key="index">
-        <img class="card-image" :src="product.image" :alt="product.name" />
-        <div class="card-body">
-          <p class="card-title">{{ product.name }}</p>
-          <div class="card-price">
-            <p>{{ product.price }}</p>
-            <div class="card-discount">
-              <span>-</span>
-              <span> {{ product.discount }}%</span>
+      <div class="grid">
+        <div class="card" v-for="(product, index) in products" :key="index">
+          <img class="card-image" :src="product.image" :alt="product.name" />
+          <div class="card-body">
+            <p class="card-title">{{ product.name }}</p>
+            <div class="card-price">
+              <p>{{ product.price }}</p>
+              <div class="card-discount">
+                <span>-</span>
+                <span> {{ product.discount }}%</span>
+              </div>
             </div>
-          </div>
-          <div class="card-bottom">
-            <p>COP $53.420</p>
+            <div class="card-bottom">
+              <p>COP $53.420</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup>
@@ -102,9 +104,17 @@ const products = [
 
 <style scoped>
 .products {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.products-header {
+.products-content {
+  width: 100%;
+  max-width: var(--body);
+}
+
+.header {
   display: flex;
   text-align: left;
   margin-bottom: 1.5rem;
@@ -126,7 +136,7 @@ const products = [
 .grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .card {
@@ -149,7 +159,7 @@ const products = [
   width: 100%;
   height: 100%;
   object-fit: contain;
-  max-height: 280px;
+  max-height: 250px;
 }
 
 .card-body {

@@ -1,8 +1,9 @@
 * {
-  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
+  font-variation-settings: "wdth" 100;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -97,7 +98,7 @@ body {
 }
 
 :root {
-  --card-radius: 12px;
+  --card-radius: 16px;
   --card-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 

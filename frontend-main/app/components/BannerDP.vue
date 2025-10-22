@@ -59,7 +59,7 @@ const items = reactive([
 
 .card-header p {
   margin: 0;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 1rem;
   font-size: var(--font-size-2);
 }

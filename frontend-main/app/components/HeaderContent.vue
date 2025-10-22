@@ -1,9 +1,9 @@
 <template>
   <div class="header-content">
     <Logo />
-    <Divider vertical transparent margin="0rem 0.5rem" />
+    <Divider vertical transparent margin="0rem 1rem" />
     <Search />
-    <Divider vertical transparent margin="0rem 0.5rem" />
+    <Divider vertical transparent margin="0rem 1rem" />
     <Button
       label="Connect"
       backgroundColor="var(--primary-0)"
