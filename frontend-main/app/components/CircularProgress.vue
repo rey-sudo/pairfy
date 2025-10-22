@@ -111,6 +111,6 @@ const progressStyle = computed(() => {
 }
 
 .circular-progress {
-  --cp-track-color: #e6e6e6;
+  --cp-track-color: var(--background-1);
 }
 </style>
