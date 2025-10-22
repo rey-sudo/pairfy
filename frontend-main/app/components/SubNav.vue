@@ -55,10 +55,10 @@ const menu = ref([
 }
 
 .menu-item {
-  color: var(--text-1);
+  color: var(--text-0);
   position: relative;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 400;
   transition: color 0.2s ease-in-out;
 }
 

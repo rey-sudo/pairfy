@@ -38,7 +38,7 @@ const items = reactive([
   {
     id: 1,
     symbol: "₮",
-    ticker: "ADA",
+    ticker: "LACERS",
     amount: 152910.0,
     usd: 125200.0,
     pct: 47,
