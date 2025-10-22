@@ -53,13 +53,13 @@ const menu = ref([
     children: ["Cars", "Motorcycles", "Trucks"],
   },
   { name: "Clothing & Fashion", children: ["Men", "Women", "Kids"] },
-  { name: "Collectibles & Art" },
-  { name: "Sports", children: ["Fitness", "Cycling", "Soccer"] },
   {
     name: "Footwear",
     children: ["Perfumes", "Makeup", "Personal Care"],
   },
   { name: "Jewelry & Watches", children: ["Furniture", "Decor", "Kitchen"] },
+
+  { name: "Health, Wellness & Beauty" },
   { name: "More", children: [] },
 ]);
 </script>
