@@ -57,7 +57,7 @@ const menu = ref([
     children: ["Perfumes", "Makeup", "Personal Care"],
   },
   { name: "Jewelry & Watches", children: ["Furniture", "Decor", "Kitchen"] },
-  { name: "Health, Wellness & Beauty" },
+  { name: "Health, Wellness & Beauty" }
 ]);
 </script>
 
@@ -83,7 +83,6 @@ const menu = ref([
 .categories {
   align-items: center;
   white-space: nowrap;
-  margin-right: 1rem;
   font-weight: 600;
   cursor: pointer;
   display: flex;
@@ -99,8 +98,19 @@ const menu = ref([
   padding: 1rem 0rem;
   max-width: var(--body);
   justify-content: flex-start;
+  overflow: hidden;
   overflow-x: auto;
 }
+
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
+.menu {       
+  -ms-overflow-style: none;    
+  scrollbar-width: 2rem;      
+}
+
 
 .menu-item {
   color: var(--text-0);
