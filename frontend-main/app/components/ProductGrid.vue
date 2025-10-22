@@ -22,22 +22,7 @@
           <div class="card-price">
             <p>{{ product.price }}</p>
             <div class="card-discount">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-arrow-big-down-icon lucide-arrow-big-down"
-              >
-                <path
-                  d="M15 11a1 1 0 0 0 1 1h2.939a1 1 0 0 1 .75 1.811l-6.835 6.836a1.207 1.207 0 0 1-1.707 0L4.31 13.81a1 1 0 0 1 .75-1.811H8a1 1 0 0 0 1-1V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1z"
-                />
-              </svg>
+              <span>-</span>
               <span> {{ product.discount }}%</span>
             </div>
           </div>
@@ -192,9 +177,12 @@ const products = [
 
 .card-discount {
   display: flex;
-  font-weight: 500;
+  font-weight: 400;
   align-items: center;
-  color: var(--primary-0);
+  color: var(--text-w);
+  padding: 0.25rem 0.5rem;
+  background: var(--red-0);
+  font-size: var(--font-size-1);
 }
 
 .card-bottom {
