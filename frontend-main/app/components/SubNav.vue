@@ -68,7 +68,7 @@ const menu = ref([
 .navbar {
   width: 100%;
   display: flex;
-  padding: 1rem 0;
+  padding-bottom: 1rem;
   justify-content: center;
   font-size: var(--font-size-2);
   box-sizing: border-box;
@@ -138,7 +138,6 @@ const menu = ref([
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 6px;
-  padding: 0.5rem 0;
   min-width: 180px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 10;

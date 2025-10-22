@@ -1,8 +1,8 @@
 <template>
   <div class="banner">
     <div class="banner-content">
-      <BannerDP />
-      <BannerTL />
+      <BannerDiscountPool />
+      <BannerDC />
       <BannerTL />
       <BannerSP />
     </div>

@@ -43,7 +43,7 @@ import { computed } from "vue";
 const props = defineProps({
   percentage: { type: Number, default: 0 },
   size: { type: Number, default: 50 },
-  stroke: { type: Number, default: 8 },
+  stroke: { type: Number, default: 6 },
   color: { type: String, default: "#3b82f6" },
   trackColor: { type: String, default: "#e6e6e6" },
   clockwise: { type: Boolean, default: true },
@@ -111,6 +111,6 @@ const progressStyle = computed(() => {
 }
 
 .circular-progress {
-  --cp-track-color: var(--background-1);
+  --cp-track-color: var(--border-0);
 }
 </style>

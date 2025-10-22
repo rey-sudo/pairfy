@@ -27,7 +27,7 @@
 }
 
 .Header-center {
-  height: 4rem;
+  height: 5rem;
   display: flex;
   justify-content: center;
 }
