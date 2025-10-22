@@ -82,15 +82,14 @@ const menu = ref([
 
 .categories {
   align-items: center;
-  white-space: nowrap;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   display: flex;
   width: 200px;
 }
 
 .menu {
-  gap: 2rem;
+  gap: 3rem;
   margin: 0;
   width: 100%;
   display: flex;
