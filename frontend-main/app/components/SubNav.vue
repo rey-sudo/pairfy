@@ -73,7 +73,7 @@ const menu = ref([
   font-size: var(--font-size-2);
   box-sizing: border-box;
   white-space: nowrap;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .navbar-content {

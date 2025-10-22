@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-header">
-      <p>Blackdays</p>
+      <p>Blackday Countdown</p>
     </div>
     <div class="card-content">
       <BannerCountdown /> 
