@@ -3,6 +3,7 @@
     <div class="banner-content">
       <BannerDP />
       <BannerTL />
+      <BannerTL />
       <BannerSP />
     </div>
   </div>
