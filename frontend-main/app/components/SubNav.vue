@@ -81,9 +81,6 @@ const menu = ref([
 }
 
 .categories {
-  border-radius: var(--button-radius);
-  background: var(--background-1);
-  padding: 0.75rem 1rem;
   align-items: center;
   white-space: nowrap;
   margin-right: 1rem;
