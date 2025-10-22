@@ -2,17 +2,17 @@
   <nav class="top-nav">
     <!-- Left -->
     <div class="nav-left">
-      <a href="#">Inicia sesión</a>
-      <a href="#">regístrate</a>
-      <a href="#">Ofertas</a>
-      <a href="#">Ayuda y contacto</a>
+      <a href="#">Github</a>
+      <a href="#">FAQ</a>
+      <a href="#">Support</a>
+      <a href="#">Contact</a>
     </div>
 
     <!-- Right -->
     <div class="nav-right">
       <button class="lang-btn">🌐 ES</button>
-      <a href="#">Vender</a>
-      <a href="#">Lista de favoritos ▾</a>
+      <a href="#">Sell</a>
+      <a href="#">Favorites ▾</a>
       <a href="#">My Account ▾</a>
       <button class="icon-btn">🔔</button>
       <button class="icon-btn">🛒</button>
