@@ -7,7 +7,7 @@
     <Button
       label="Connect"
       backgroundColor="var(--primary-0)"
-      borderColor="var(--border-1)"
+      borderColor="transparent"
       textColor="var(--text-w)"
     />
   </div>
