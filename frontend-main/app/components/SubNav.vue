@@ -4,8 +4,8 @@
       <div class="categories">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
+          width="24"
+          height="24"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -45,30 +45,19 @@ import { ref } from "vue";
 
 const menu = ref([
   {
-    name: "Technology",
+    name: "Electronics & Devices",
     children: ["Phones", "Laptops", "Tablets", "Accessories"],
   },
-  { name: "Vehicles", children: ["Cars", "Motorcycles", "Trucks"] },
-  { name: "Fashion", children: ["Men", "Women", "Kids"] },
+  { name: "Digital Content & Software", children: ["Cars", "Motorcycles", "Trucks"] },
+  { name: "Clothing & Fashion", children: ["Men", "Women", "Kids"] },
   { name: "Collectibles & Art" },
   { name: "Sports", children: ["Fitness", "Cycling", "Soccer"] },
   {
-    name: "Health & Beauty",
+    name: "Footwear",
     children: ["Perfumes", "Makeup", "Personal Care"],
   },
-  { name: "Home & Garden", children: ["Furniture", "Decor", "Kitchen"] },
-  { name: "Deals" },
-  { name: "Sell" },
-  { name: "Home & Garden", children: ["Furniture", "Decor", "Kitchen"] },
-  {
-    name: "Health & Beauty",
-    children: ["Perfumes", "Makeup", "Personal Care"],
-  },
-  { name: "Sports", children: ["Fitness", "Cycling", "Soccer"] },
-  {
-    name: "Health & Beauty",
-    children: ["Perfumes", "Makeup", "Personal Care"],
-  }
+  { name: "Jewelry & Watches", children: ["Furniture", "Decor", "Kitchen"] },
+  { name: "Health, Wellness & Beauty" },
 ]);
 </script>
 
@@ -77,10 +66,10 @@ const menu = ref([
   width: 100%;
   display: flex;
   justify-content: center;
-  font-size: var(--font-size-1);
+  font-size: var(--font-size-2);
   box-sizing: border-box;
   white-space: nowrap;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .navbar-content {
