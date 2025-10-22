@@ -60,7 +60,7 @@ const menu = ref([
   { name: "Jewelry & Watches", children: ["Furniture", "Decor", "Kitchen"] },
 
   { name: "Health, Wellness & Beauty" },
-  { name: "More", children: [] },
+  { name: "Books, Music & Movies", children: [] },
 ]);
 </script>
 
@@ -99,6 +99,7 @@ const menu = ref([
 .menu {
   gap: 3rem;
   margin: 0;
+  padding: 0;
   width: 100%;
   display: flex;
   list-style: none;

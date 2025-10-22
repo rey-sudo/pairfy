@@ -4,7 +4,7 @@
       <div class="header">
         <div class="header-left">
           <h2 class="title">Recommended for you</h2>
-          <p class="subtitle">Technology</p>
+          <p class="subtitle">Electronics & Devices</p>
         </div>
         <div class="header-right">
           <Button
