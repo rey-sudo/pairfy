@@ -92,7 +92,7 @@ const selectSuggestion = (item: ProductSuggestion) => {
     font-size: var(--font-size-1);
     border-radius: var(--radius-5);
     transition: var(--transition-0);
-    background: var(--background-1);
+    background: var(--background-0);
     border: 1px solid var(--black-0);
 }
 
