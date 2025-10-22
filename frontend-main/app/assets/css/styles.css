@@ -2,6 +2,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+html{
+   font-size: 15px;
+}
+
 body {
   font-variation-settings: "wdth" 100;
   font-optical-sizing: auto;
