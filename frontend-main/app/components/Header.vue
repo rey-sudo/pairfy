@@ -17,6 +17,9 @@
 <style lang="css" scoped>
 .Header {
   width: 100%;
+  z-index: 1000;
+  position: fixed;
+  background: var(--background-0);
 }
 
 .Header-top {

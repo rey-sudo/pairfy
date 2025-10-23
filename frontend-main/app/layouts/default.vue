@@ -19,5 +19,6 @@
 
 .content {
   flex: 1;
+  padding-top: 164px;
 }
 </style>
