@@ -31,7 +31,7 @@
   margin: 0;
   font-weight: 700;
   margin-bottom: 1rem;
-  font-size: var(--font-size-2);
+  font-size: var(--font-size-3);
 }
 
 @media (max-width: 520px) {

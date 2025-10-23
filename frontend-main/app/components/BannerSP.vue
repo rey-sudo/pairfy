@@ -65,7 +65,7 @@ const items = reactive([
   margin: 0;
   font-weight: 700;
   margin-bottom: 1rem;
-  font-size: var(--font-size-2);
+  font-size: var(--font-size-3);
 }
 
 .items {
@@ -103,7 +103,7 @@ const items = reactive([
 
 .amount {
   font-weight: 600;
-  font-size: var(--font-size-3);
+  font-size: var(--font-size-2);
 }
 
 .usd {

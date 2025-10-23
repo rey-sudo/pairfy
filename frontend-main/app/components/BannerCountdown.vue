@@ -56,7 +56,7 @@ const pad = (n) => String(n).padStart(2, "0");
 .box {
   width: 4rem;
   height: 4rem;
-  border: 2px solid var(--border-0);
+  border: 1px solid var(--border-1);
   border-radius: var(--radius-2);
   display: flex;
   flex-direction: column;
@@ -65,7 +65,7 @@ const pad = (n) => String(n).padStart(2, "0");
 }
 .value {
   font-weight: 700;
-  font-size: var(--font-size-3);
+  font-size: var(--font-size-2);
 }
 .label {
   font-size: var(--font-size-0);
