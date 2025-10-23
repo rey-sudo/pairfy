@@ -1,9 +1,10 @@
 * {
   font-family: "Open Sans", sans-serif;
+  caret-color: transparent;
 }
 
-html{
-   font-size: 15px;
+html {
+  font-size: 15px;
 }
 
 body {

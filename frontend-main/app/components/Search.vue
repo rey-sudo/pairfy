@@ -86,6 +86,7 @@ const selectSuggestion = (item: ProductSuggestion) => {
 .search-input {
     width: 100%;
     outline: none;
+    caret-color: initial;
     color: currentColor;
     padding: 0.75rem 1rem;
     box-sizing: border-box;
@@ -104,6 +105,7 @@ const selectSuggestion = (item: ProductSuggestion) => {
 
 .search-input::placeholder {
     color: currentColor;
+
 }
 
 .search-input:focus::placeholder {
