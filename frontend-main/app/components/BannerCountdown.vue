@@ -57,7 +57,7 @@ const pad = (n) => String(n).padStart(2, "0");
   width: 4rem;
   height: 4rem;
   border: 1px solid var(--border-1);
-  border-radius: var(--radius-2);
+  border-radius: var(--radius-3);
   display: flex;
   flex-direction: column;
   justify-content: center;

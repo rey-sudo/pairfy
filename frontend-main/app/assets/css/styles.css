@@ -102,7 +102,7 @@ body {
 }
 
 :root {
-  --card-radius: var(--radius-2);
+  --card-radius: var(--radius-3);
   --card-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
