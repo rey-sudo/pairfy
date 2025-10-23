@@ -65,7 +65,7 @@ const items = reactive([
   margin: 0;
   font-weight: 700;
   margin-bottom: 1rem;
-  font-size: var(--font-size-3);
+  font-size: var(--font-size-2);
 }
 
 .items {
