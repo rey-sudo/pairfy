@@ -98,6 +98,7 @@ const selectSuggestion = (item: ProductSuggestion) => {
 
 .search-input::placeholder {
     opacity: 0.6;
+    font-weight: 500;
     color: var(--text-1);
 }
 

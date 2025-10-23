@@ -191,7 +191,7 @@ const products = [
   align-items: center;
   color: var(--text-w);
   padding: 0.25rem 0.5rem;
-  background: var(--black-0);
+  background: var(--red-0);
   font-size: var(--font-size-1);
 }
 

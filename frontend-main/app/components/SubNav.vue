@@ -90,8 +90,8 @@ const menu = ref([
   cursor: pointer;
   display: flex;
   width: 200px;
-  margin-right: 2rem;
-  padding: 0.5rem 1rem;
+  margin-right: 3rem;
+  padding: 0.75rem 1rem;
   border-radius: var(--radius-5);
   background: var(--background-1);
 }
