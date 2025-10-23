@@ -18,7 +18,7 @@
           <path d="M4 12h16" />
           <path d="M4 19h16" />
         </svg>
-        <span style="margin-left: 1rem">All Categories</span>
+        <span style="margin-left: 0.5rem">All Categories</span>
       </div>
       <ul class="menu">
         <li v-for="(item, index) in menu" :key="index" class="menu-item">
