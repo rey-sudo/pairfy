@@ -99,7 +99,7 @@ const items = reactive([
 
 .amount {
   font-weight: 700;
-  font-size: var(--font-size-2);
+  font-size: var(--font-size-3);
 }
 
 .usd {

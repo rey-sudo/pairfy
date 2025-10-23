@@ -3,7 +3,7 @@
     <div class="banner-content">
       <BannerDiscountPool />
       <BannerBlackdays />
-      <BannerTL />
+      <BannerTreasury />
       <BannerSP />
     </div>
   </div>
