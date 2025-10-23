@@ -65,6 +65,7 @@ const pad = (n) => String(n).padStart(2, "0");
 }
 .value {
   font-weight: 700;
+  font-size: var(--font-size-3);
 }
 .label {
   font-size: var(--font-size-0);

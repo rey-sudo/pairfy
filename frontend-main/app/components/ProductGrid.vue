@@ -24,7 +24,7 @@
               <p>{{ product.price }}</p>
               <div class="card-discount">
                 <span>-</span>
-                <span> {{ product.discount }}%</span>
+                <span> {{ product.discount }}% Off</span>
               </div>
             </div>
             <div class="card-bottom">
@@ -136,7 +136,7 @@ const products = [
 .grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
 
 .card {
@@ -159,7 +159,7 @@ const products = [
   width: 100%;
   height: 100%;
   object-fit: contain;
-  max-height: 250px;
+  max-height: 16rem;
 }
 
 .card-body {
