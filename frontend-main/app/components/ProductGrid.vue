@@ -136,7 +136,7 @@ const products = [
 .grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
 
 .card {
@@ -159,7 +159,7 @@ const products = [
   width: 100%;
   height: 100%;
   object-fit: contain;
-  max-height: 17rem;
+  max-height: 16rem;
 }
 
 .card-body {
