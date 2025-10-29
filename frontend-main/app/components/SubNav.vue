@@ -89,7 +89,6 @@ const menu = ref([
   font-weight: 600;
   cursor: pointer;
   display: flex;
-  width: 200px;
   margin-right: 3rem;
   padding: 0.75rem 1rem;
   border-radius: var(--radius-5);

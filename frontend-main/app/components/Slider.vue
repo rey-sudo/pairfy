@@ -8,7 +8,7 @@
 .Slider {
   width: 100%;
   height: 360px;
-  background-image: url("https://http2.mlstatic.com/D_NQ_969939-MLA95723103893_102025-OO.webp");
+  background-image: url("https://http2.mlstatic.com/D_NQ_663272-MLA96315872033_102025-OO.webp");
   background-repeat: no-repeat;
   background-position-y: 0%;
   background-size: cover;

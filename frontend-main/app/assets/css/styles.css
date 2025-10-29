@@ -1,5 +1,5 @@
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   caret-color: transparent;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 :root {
-  --card-radius: 0px;
+  --card-radius: 16px;
   --card-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
