@@ -19,11 +19,7 @@
         </div>
 
         <div class="right">
-          <CircularProgress
-            :size="50"
-            :percentage="30"
-            color="var(--primary-0)"
-          />
+
         </div>
       </li>
     </ul>
