@@ -100,7 +100,6 @@ const progressStyle = computed(() => {
 }
 
 .cp-label {
-  top: 5px;
   inset: 0;
   left: 2px;
   display: flex;
