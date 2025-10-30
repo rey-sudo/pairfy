@@ -23,7 +23,7 @@
             <div class="card-price">
               <p>{{ product.price }}</p>
               <div class="card-discount">
-                <span>-</span>
+                <span></span>
                 <span> {{ product.discount }}% Off</span>
               </div>
             </div>

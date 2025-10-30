@@ -71,15 +71,15 @@ body {
 }
 
 :root {
-  --red-0: #ef4444; /* Error / Critical */
-  --yellow-0: #facc15; /* Warning / Caution */
-  --green-0: #22c55e; /* Success / Confirmed */
-  --orange-0: #fb923c; /* Soft alert / Attention */
-  --purple-0: #8b5cf6; /* Info / Highlighted elements */
-  --gray-0: #1e293b;
-  --black-0: #000000;
-  --blue-0: #0c4ad2;
-  --blue-0: #0030b8;
+  --red-0: #E74C3C;
+  --yellow-0: #FFB84D;
+  --green-0: #2ECC71;
+  --orange-0: #FB5B28;
+  --purple-0: #6C63FF;
+  --gray-0: #2F3542;
+  --black-0: #1A1A1A;
+  --blue-0: #289EFB;
+
 
   --red-bg: rgba(239, 68, 68, 0.1); /* Soft background for error states */
   --yellow-bg: rgba(250, 204, 21, 0.1); /* Soft background for warnings */
