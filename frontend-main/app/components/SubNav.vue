@@ -61,6 +61,7 @@ const menu = ref([
 
   { name: "Health, Wellness & Beauty" },
   { name: "Books, Music & Movies", children: [] },
+  { name: "More", children: [] },
 ]);
 </script>
 
