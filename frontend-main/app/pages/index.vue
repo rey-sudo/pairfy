@@ -1,7 +1,6 @@
 <template>
   <div class="index">
     <div class="index-content">
-      <Slider />
       <Divider margin="1rem" transparent />
       <Banner />
       <Divider margin="1rem" transparent />

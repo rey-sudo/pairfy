@@ -22,10 +22,6 @@
             <p class="card-title">{{ product.name }}</p>
             <div class="card-price">
               <p>{{ product.price }}</p>
-              <div class="card-discount">
-                <span></span>
-                <span> {{ product.discount }}% Off</span>
-              </div>
             </div>
             <div class="card-bottom">
               <p>COP $53.420</p>
@@ -136,7 +132,7 @@ const products = [
 .grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .card {
@@ -149,6 +145,7 @@ const products = [
   flex-direction: column;
   cursor: pointer;
   display: flex;
+  padding: 1rem;
 }
 
 .card:hover {
@@ -159,11 +156,11 @@ const products = [
   width: 100%;
   height: 100%;
   object-fit: contain;
-  max-height: 16rem;
+  max-height: 15rem;
 }
 
 .card-body {
-  padding: 1rem;
+  margin-top: 1rem;
 }
 
 .card-title {
@@ -183,16 +180,6 @@ const products = [
 
 .card-price p {
   margin: 0;
-}
-
-.card-discount {
-  display: flex;
-  font-weight: 400;
-  align-items: center;
-  color: var(--text-w);
-  padding: 0.25rem 0.5rem;
-  background: var(--black-0);
-  font-size: var(--font-size-1);
 }
 
 .card-bottom {

@@ -1,5 +1,5 @@
 * {
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
   caret-color: transparent;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 :root {
-  --body: 1600px;
+  --body: 110rem;
 
   --background-0: #ffffff;
   --background-1: #f7f9fb;
@@ -41,7 +41,7 @@ body {
   --border-0: #e5eaf1;
   --border-1: #cbd5e1;
 
-  --primary-0: #fb5b28;
+  --primary-0: rgb(0,82,255);
   --primary-0-base: 251, 91, 40;
 
   --radius-0: 4px;
@@ -71,15 +71,14 @@ body {
 }
 
 :root {
-  --red-0: #E74C3C;
-  --yellow-0: #FFB84D;
-  --green-0: #2ECC71;
-  --orange-0: #FB5B28;
-  --purple-0: #6C63FF;
-  --gray-0: #2F3542;
-  --black-0: #1A1A1A;
-  --blue-0: #289EFB;
-
+  --red-0: #e74c3c;
+  --yellow-0: #ffb84d;
+  --green-0: #2ecc71;
+  --orange-0: #fb5b28;
+  --purple-0: #6c63ff;
+  --gray-0: #2f3542;
+  --black-0: #1a1a1a;
+  --blue-0: #289efb;
 
   --red-bg: rgba(239, 68, 68, 0.1); /* Soft background for error states */
   --yellow-bg: rgba(250, 204, 21, 0.1); /* Soft background for warnings */
@@ -100,7 +99,7 @@ body {
 }
 
 :root {
-  --card-radius: 16px;
+  --card-radius: var(--radius-3);
   --card-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 

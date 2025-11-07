@@ -91,7 +91,7 @@ const selectSuggestion = (item: ProductSuggestion) => {
     padding: 0.75rem 1rem;
     box-sizing: border-box;
     font-size: var(--font-size-1);
-    border-radius: var(--radius-5);
+    border-radius: var(--radius-3);
     transition: var(--transition-0);
     background: var(--background-0);
     border: 1px solid var(--border-1);

@@ -23,10 +23,8 @@
 }
 
 .Header-top {
-  height: 2rem;
-  display: flex;
-  justify-content: center;
-}
+  height: 3rem;
+  }
 
 .Header-center {
   height: 5rem;
