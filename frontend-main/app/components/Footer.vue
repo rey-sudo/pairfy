@@ -77,7 +77,6 @@
 
 <style scoped>
 .footer {
-  border-top: 1px solid var(--border-0);
   background: var(--background-1);
   font-size: var(--font-size-1);
   box-sizing: border-box;
