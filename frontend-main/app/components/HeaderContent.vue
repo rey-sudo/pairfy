@@ -1,21 +1,22 @@
 <template>
-  <div class="header-content">
-    <Logo />
-    <Divider vertical transparent margin="0rem 1rem" />
-    <Search />
-    <Divider vertical transparent margin="0rem 1rem" />
-    <Button
-      label="Connect"
-      backgroundColor="var(--primary-0)"
-      borderColor="transparent"
-      textColor="var(--text-w)"
-    />
+  <div class="header-wrap">
+    <div class="header-content">
+ 
+
+    </div>
   </div>
 </template>
 
 <script setup></script>
 
 <style lang="css" scoped>
+.header-wrap {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
 .header-content {
   width: 100%;
   display: flex;

@@ -1,10 +1,9 @@
 <template>
   <div class="index">
     <div class="index-content">
+      <HomeSlider />
       <Divider margin="1rem" transparent />
-      <Slider />
-      <Divider margin="1rem" transparent />
-      <Banner />
+      <HomeBanner />
       <Divider margin="1rem" transparent />
       <ProductGrid />
       <Divider margin="1rem" transparent />

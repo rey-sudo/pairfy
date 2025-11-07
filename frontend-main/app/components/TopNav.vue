@@ -12,6 +12,7 @@
 <style scoped>
 .top-nav {
   width: 100%;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;

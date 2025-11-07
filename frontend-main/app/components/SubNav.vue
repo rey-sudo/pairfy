@@ -90,14 +90,14 @@ const menu = ref([
   font-weight: 600;
   cursor: pointer;
   display: flex;
-  margin-right: 3rem;
+  margin-right: 2rem;
   padding: 0.75rem 1rem;
   border-radius: var(--radius-5);
   background: var(--background-1);
 }
 
 .menu {
-  gap: 3rem;
+  gap: 2rem;
   margin: 0;
   padding: 0;
   width: 100%;
