@@ -12,5 +12,7 @@
   background-repeat: no-repeat;
   background-position-y: 10%;
   background-size: cover;
+  max-width: var(--body);
+  border-radius: var(--card-radius);
 }
 </style>
